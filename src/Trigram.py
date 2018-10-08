@@ -45,11 +45,15 @@ class Trigram():
     # to an output file (see Lab 1).
     def printTrigram(self):
         print("Trigram counts in ", self.infile, ", sorted alphabetically:")
-        for trigram in sorted(self.tri_counts.keys()):
-            print(trigram, ": ", self.tri_counts[trigram])
+        with open('alphabetical_trigram.txt', 'w') as f:
+            for trigram in sorted(self.tri_counts.keys()):
+                # print(trigram, ": ", self.tri_counts[trigram])
+                print(trigram, ": ", self.tri_counts[trigram], file=f)
         print("Trigram counts in ", self.infile, ", sorted numerically:")
-        for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
-            print(tri_count[0], ": ", str(tri_count[1]))
+        with open('numerical_trigram.txt', 'w') as f:
+            for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
+                # print(tri_count[0], ": ", str(tri_count[1]))
+                print(tri_count[0], ": ", str(tri_count[1]), file=f)
 
     # Task 4
     # Generates output string based on language model

@@ -1,0 +1,3943 @@
+  0 :  8
+  a :  9
+  b :  2
+  c :  7
+  d :  20
+  e :  6
+  f :  3
+  g :  3
+  h :  2
+  i :  7
+  k :  2
+  l :  3
+  m :  2
+  n :  8
+  o :  1
+  p :  1
+  s :  5
+  u :  19
+  v :  4
+  w :  17
+  z :  3
+ .. :  1
+ 0  :  19
+ 0. :  5
+ 00 :  126
+ 0g :  1
+ 0r :  2
+ a  :  2
+ a. :  2
+ a0 :  4
+ ab :  157
+ ac :  6
+ ad :  2
+ ag :  4
+ ah :  1
+ ak :  19
+ al :  176
+ am :  43
+ an :  296
+ ap :  3
+ ar :  119
+ as :  12
+ at :  1
+ au :  652
+ az :  1
+ b  :  2
+ b. :  1
+ ba :  19
+ be :  966
+ bi :  74
+ bl :  15
+ bo :  5
+ br :  70
+ bs :  1
+ bu :  5
+ bz :  10
+ c  :  4
+ c0 :  8
+ ca :  2
+ ce :  9
+ ch :  14
+ co :  6
+ cr :  4
+ cu :  1
+ d. :  1
+ da :  762
+ de :  1648
+ di :  1221
+ dn :  1
+ do :  36
+ dr :  27
+ du :  53
+ ea :  2
+ eb :  26
+ ec :  2
+ ef :  19
+ eg :  1
+ eh :  4
+ ei :  591
+ el :  7
+ em :  10
+ en :  173
+ er :  316
+ es :  138
+ et :  18
+ eu :  147
+ ev :  10
+ ex :  9
+ fa :  30
+ fe :  49
+ ff :  13
+ fh :  20
+ fi :  38
+ fl :  23
+ fn :  20
+ fo :  63
+ fr :  453
+ fu :  8
+ ga :  42
+ gb :  2
+ ge :  505
+ gi :  31
+ gl :  37
+ gn :  2
+ go :  3
+ gr :  91
+ gt :  13
+ gu :  17
+ h. :  1
+ ha :  272
+ hc :  1
+ he :  191
+ hf :  1
+ hh :  3
+ hi :  120
+ hl :  6
+ hn :  4
+ ho :  27
+ hr :  3
+ ht :  15
+ hu :  10
+ hy :  1
+ i  :  1
+ ic :  210
+ id :  2
+ ig :  1
+ ih :  151
+ im :  169
+ in :  556
+ ir :  2
+ is :  195
+ it :  3
+ ja :  62
+ je :  57
+ jh :  2
+ ji :  1
+ jn :  4
+ jo :  1
+ ju :  14
+ k  :  1
+ ka :  69
+ ke :  42
+ kh :  1
+ ki :  2
+ kl :  37
+ km :  4
+ kn :  64
+ ko :  426
+ kr :  17
+ ks :  1
+ ku :  18
+ la :  83
+ lc :  1
+ le :  135
+ li :  37
+ ln :  64
+ lo :  17
+ lp :  2
+ ls :  4
+ lt :  3
+ lu :  3
+ ly :  2
+ ma :  111
+ mc :  91
+ me :  186
+ mg :  30
+ mi :  300
+ mn :  9
+ mo :  40
+ mr :  1
+ ms :  44
+ mt :  1
+ mu :  44
+ na :  121
+ nc :  9
+ nd :  51
+ ne :  60
+ ng :  1
+ ni :  209
+ nm :  9
+ no :  80
+ nr :  5
+ nt :  2
+ nu :  81
+ o. :  1
+ ob :  25
+ od :  51
+ of :  16
+ oh :  6
+ ok :  1
+ op :  12
+ or :  14
+ os :  8
+ pa :  116
+ pe :  26
+ pf :  7
+ ph :  4
+ pl :  16
+ po :  60
+ pp :  3
+ pr :  318
+ ps :  1
+ pu :  36
+ qu :  13
+ ra :  81
+ rb :  1
+ rc :  2
+ re :  286
+ rg :  1
+ rh :  2
+ ri :  50
+ rm :  6
+ ro :  16
+ rt :  1
+ ru :  10
+ sa :  46
+ sc :  167
+ sd :  3
+ se :  208
+ si :  436
+ sk :  1
+ sm :  5
+ sn :  1
+ so :  254
+ sp :  45
+ sr :  4
+ st :  298
+ su :  15
+ sw :  2
+ sy :  7
+ ta :  53
+ te :  50
+ tg :  1
+ th :  14
+ ti :  2
+ to :  7
+ tr :  46
+ tt :  11
+ tu :  19
+ u. :  4
+ ue :  24
+ uh :  5
+ um :  132
+ un :  988
+ ur :  2
+ us :  4
+ va :  8
+ ve :  379
+ vi :  51
+ vl :  3
+ vo :  469
+ w. :  1
+ wa :  117
+ we :  374
+ wh :  18
+ wi :  518
+ wn :  5
+ wo :  104
+ wr :  29
+ wt :  1
+ wu :  63
+ wy :  1
+ xx :  1
+ z. :  1
+ za :  7
+ ze :  67
+ zg :  3
+ zh :  2
+ zi :  69
+ zo :  1
+ zu :  544
+ zw :  74
+. 0 :  1
+. a :  4
+. b :  2
+. d :  8
+. e :  1
+. f :  1
+. h :  1
+. j :  7
+. k :  1
+. m :  1
+. n :  2
+. o :  1
+. r :  1
+. s :  3
+. t :  2
+. u :  2
+. v :  1
+... :  1
+.0  :  1
+.00 :  5
+0   :  25
+0 . :  4
+0 0 :  6
+0 a :  8
+0 b :  10
+0 c :  3
+0 d :  16
+0 e :  4
+0 f :  6
+0 g :  7
+0 h :  2
+0 i :  6
+0 j :  3
+0 k :  1
+0 l :  1
+0 m :  2
+0 n :  5
+0 o :  2
+0 r :  3
+0 s :  3
+0 u :  13
+0 v :  10
+0 z :  2
+0.  :  12
+0.0 :  6
+00  :  122
+00. :  16
+000 :  344
+00c :  8
+00e :  5
+00j :  1
+0co :  8
+0eg :  5
+0fr :  2
+0ge :  3
+0jh :  1
+0pr :  1
+0re :  10
+a   :  5
+a 0 :  2
+a a :  10
+a b :  10
+a d :  139
+a e :  31
+a f :  1
+a g :  4
+a h :  7
+a i :  28
+a j :  2
+a k :  2
+a l :  3
+a m :  16
+a n :  4
+a o :  1
+a p :  2
+a r :  1
+a s :  38
+a u :  5
+a v :  4
+a w :  41
+a z :  1
+a.  :  2
+a00 :  8
+aar :  3
+aat :  62
+ab  :  10
+ab. :  4
+abb :  5
+abc :  1
+abe :  172
+abf :  2
+abg :  33
+abh :  3
+abi :  3
+abl :  5
+abn :  3
+abs :  62
+abu :  1
+abw :  5
+abz :  11
+ach :  255
+aci :  4
+ack :  3
+ad  :  5
+adb :  1
+add :  1
+ade :  17
+adi :  1
+adm :  1
+ado :  1
+adr :  1
+adt :  5
+adu :  10
+ae  :  22
+ae. :  1
+aen :  9
+afe :  2
+aff :  28
+afr :  24
+aft :  125
+ag  :  67
+ag. :  2
+age :  205
+agf :  2
+agi :  4
+agl :  1
+agn :  1
+agr :  4
+ags :  7
+agt :  16
+agu :  5
+agw :  1
+agz :  1
+ah  :  3
+ahe :  14
+ahi :  2
+ahl :  24
+ahm :  55
+ahn :  6
+ahr :  99
+ai  :  2
+ail :  4
+ain :  1
+ais :  1
+ait :  1
+aki :  3
+akr :  2
+akt :  80
+aku :  1
+akz :  9
+al  :  44
+ala :  7
+alb :  50
+ald :  13
+ale :  129
+alf :  2
+ali :  35
+all :  128
+alm :  1
+alo :  2
+alp :  29
+als :  104
+alt :  125
+alu :  1
+alv :  3
+alw :  2
+aly :  13
+alz :  1
+am  :  57
+ama :  4
+amb :  2
+ame :  146
+ami :  34
+amk :  9
+amm :  115
+amo :  1
+amp :  2
+ams :  3
+amt :  13
+amw :  1
+an  :  124
+an. :  5
+ana :  43
+anb :  2
+anc :  17
+and :  174
+ane :  3
+anf :  25
+ang :  172
+anh :  5
+ani :  8
+ank :  52
+anl :  3
+anm :  5
+ann :  95
+ano :  2
+anr :  8
+ans :  82
+ant :  83
+anu :  20
+anv :  1
+anw :  9
+anz :  63
+apa :  3
+ape :  1
+aph :  2
+api :  10
+apk :  1
+app :  6
+ar  :  85
+ar. :  11
+ara :  57
+arb :  124
+ard :  1
+are :  41
+arf :  12
+arg :  9
+arh :  1
+ari :  27
+ark :  18
+arl :  84
+arm :  25
+arn :  8
+arr :  2
+ars :  13
+art :  86
+aru :  26
+ary :  1
+arz :  1
+as  :  300
+as. :  2
+asc :  3
+ase :  9
+asi :  5
+asp :  16
+ass :  55
+ast :  34
+at  :  82
+at. :  22
+ata :  15
+ate :  122
+ath :  3
+ati :  123
+atl :  6
+ato :  7
+atr :  10
+ats :  19
+att :  91
+atu :  14
+atw :  1
+atz :  21
+au  :  95
+aub :  15
+auc :  161
+aue :  49
+auf :  325
+aug :  5
+aum :  38
+aun :  1
+aup :  15
+aur :  1
+aus :  296
+aut :  12
+auu :  1
+ava :  1
+avi :  1
+avo :  8
+awa :  1
+awe :  2
+awi :  1
+axi :  6
+ay  :  2
+azi :  1
+azo :  1
+azu :  25
+b 0 :  2
+b a :  6
+b b :  3
+b d :  18
+b e :  9
+b f :  3
+b g :  2
+b h :  5
+b i :  3
+b j :  2
+b k :  2
+b m :  7
+b r :  1
+b s :  3
+b t :  2
+b u :  2
+b v :  1
+b w :  6
+b z :  1
+b.  :  1
+bah :  5
+bal :  11
+ban :  1
+bar :  41
+bas :  4
+bat :  18
+bau :  14
+bba :  5
+bc  :  1
+be  :  46
+be. :  3
+bea :  19
+bed :  70
+bee :  4
+bef :  36
+beg :  32
+beh :  18
+bei :  284
+bek :  15
+bel :  19
+bem :  15
+ben :  203
+ber :  489
+bes :  210
+bet :  54
+beu :  4
+bev :  11
+bew :  58
+bez :  38
+bfa :  1
+bfi :  1
+bga :  2
+bge :  31
+bgl :  2
+bha :  1
+bhi :  1
+bhn :  2
+bic :  1
+bie :  33
+bil :  32
+bin :  34
+bip :  6
+bir :  1
+bis :  20
+bit :  20
+bla :  1
+ble :  54
+blh :  1
+bli :  27
+blo :  1
+bnd :  7
+bne :  1
+bni :  13
+bod :  4
+bom :  1
+bor :  1
+bot :  11
+bou :  2
+bra :  22
+brc :  2
+bre :  11
+brg :  24
+bri :  24
+bro :  8
+brs :  1
+bru :  11
+bsa :  6
+bsb :  1
+bsc :  23
+bse :  2
+bsf :  17
+bsi :  13
+bsk :  1
+bsl :  1
+bso :  2
+bsp :  2
+bsr :  2
+bss :  1
+bst :  45
+bsv :  2
+bt  :  29
+bt. :  9
+bte :  2
+buc :  4
+bud :  4
+bug :  1
+bun :  13
+bur :  3
+bus :  1
+bve :  1
+bwa :  3
+bwe :  2
+bwo :  3
+bwr :  3
+bze :  5
+bzu :  10
+bzw :  10
+c a :  1
+c d :  1
+c e :  1
+c g :  1
+c h :  1
+c00 :  8
+cap :  1
+car :  2
+cas :  1
+cbe :  1
+cca :  2
+ce  :  3
+cen :  24
+ch  :  1067
+ch. :  12
+cha :  167
+chb :  1
+chd :  10
+che :  823
+chf :  54
+chg :  15
+chh :  24
+chi :  63
+chk :  36
+chl :  150
+chm :  10
+chn :  43
+cho :  17
+chp :  2
+chq :  1
+chr :  63
+chs :  93
+cht :  808
+chu :  78
+chv :  2
+chw :  37
+chz :  9
+cia :  1
+cil :  1
+cin :  1
+cio :  5
+ck  :  31
+ck. :  1
+ckb :  1
+cke :  25
+ckg :  2
+ckh :  2
+ckl :  65
+ckm :  2
+cks :  36
+ckt :  7
+cku :  2
+ckw :  12
+ckz :  2
+coc :  1
+cod :  2
+con :  1
+cos :  6
+cou :  1
+cox :  3
+cre :  4
+ctu :  1
+cum :  1
+cun :  1
+d   :  7
+d 0 :  6
+d a :  53
+d b :  25
+d c :  2
+d d :  253
+d e :  54
+d f :  24
+d g :  27
+d h :  35
+d i :  62
+d j :  7
+d k :  44
+d l :  15
+d m :  40
+d n :  34
+d o :  6
+d p :  11
+d q :  1
+d r :  22
+d s :  71
+d t :  6
+d u :  27
+d v :  31
+d w :  65
+d z :  29
+d.  :  1
+da  :  296
+dab :  8
+dac :  4
+dad :  6
+daf :  24
+dag :  5
+dah :  12
+dak :  3
+dal :  2
+dam :  59
+dan :  64
+dar :  111
+das :  229
+dat :  10
+dau :  12
+dav :  8
+daz :  25
+dba :  1
+dbo :  1
+ddi :  1
+de  :  172
+de. :  12
+deb :  19
+dec :  4
+dee :  2
+def :  8
+deh :  1
+dei :  1
+del :  9
+dem :  125
+den :  875
+dep :  3
+der :  1438
+des :  219
+det :  30
+deu :  66
+dex :  4
+dez :  10
+dfr :  2
+dge :  1
+dgl :  2
+dhe :  1
+di  :  7
+dia :  6
+did :  2
+die :  1311
+dig :  52
+dik :  11
+dil :  1
+dim :  3
+din :  39
+dir :  6
+dis :  38
+dit :  1
+diu :  1
+div :  3
+dkv :  1
+dla :  29
+dle :  3
+dli :  71
+dlo :  1
+dlu :  17
+dme :  6
+dmp :  1
+dne :  18
+dni :  3
+dnn :  1
+dnu :  44
+do  :  1
+doc :  42
+dok :  7
+don :  12
+dop :  1
+dor :  9
+dox :  1
+dpu :  8
+dr  :  1
+dra :  2
+drc :  3
+dre :  10
+drf :  7
+dri :  16
+drn :  3
+dru :  15
+ds  :  56
+ds. :  4
+dsa :  6
+dsc :  2
+dsg :  1
+dsk :  1
+dsm :  5
+dsp :  5
+dss :  1
+dst :  52
+dsv :  3
+dt  :  2
+dtb :  1
+dte :  21
+dti :  6
+dtv :  1
+duk :  10
+dun :  61
+dur :  61
+dus :  5
+duz :  1
+dwi :  17
+e   :  14
+e 0 :  12
+e a :  287
+e b :  219
+e c :  7
+e d :  370
+e e :  223
+e f :  150
+e g :  118
+e h :  95
+e i :  268
+e j :  18
+e k :  154
+e l :  73
+e m :  168
+e n :  108
+e o :  23
+e p :  117
+e q :  4
+e r :  104
+e s :  250
+e t :  37
+e u :  132
+e v :  159
+e w :  115
+e z :  119
+eab :  2
+eac :  5
+eag :  5
+eak :  1
+eal :  4
+eam :  2
+ean :  9
+ear :  1
+eat :  1
+eau :  14
+eb  :  2
+eba :  20
+ebe :  113
+ebh :  1
+ebi :  33
+ebl :  11
+ebn :  14
+ebo :  10
+ebr :  17
+ebs :  1
+ebt :  4
+ebu :  8
+ech :  119
+eck :  12
+ecu :  1
+ed  :  3
+eda :  20
+ede :  149
+edf :  1
+edi :  26
+edk :  1
+edl :  11
+edm :  1
+edn :  4
+edo :  17
+edr :  4
+eds :  48
+edt :  13
+edu :  3
+ee  :  3
+eef :  1
+eeh :  7
+eei :  10
+een :  23
+eer :  5
+ees :  1
+eev :  1
+ef  :  1
+efa :  33
+efc :  1
+efe :  6
+eff :  36
+efg :  2
+efh :  21
+efi :  7
+efl :  4
+efo :  19
+efr :  28
+efs :  2
+efu :  7
+eg  :  7
+eg. :  1
+ega :  15
+ege :  172
+egi :  239
+egk :  1
+egl :  11
+egn :  6
+ego :  1
+egr :  19
+egs :  4
+egt :  33
+egu :  10
+egv :  1
+eha :  17
+ehb :  1
+ehe :  108
+ehi :  2
+ehl :  14
+ehm :  57
+ehn :  17
+eho :  3
+ehp :  1
+ehr :  199
+eht :  49
+ehu :  8
+ei  :  127
+ei. :  1
+eib :  23
+eic :  182
+eid :  52
+eie :  6
+eif :  16
+eig :  53
+eih :  13
+eil :  90
+eim :  18
+ein :  912
+eip :  1
+eir :  4
+eis :  105
+eit :  627
+eiz :  7
+eje :  6
+ek0 :  2
+eka :  3
+eke :  1
+ekl :  3
+ekm :  6
+ekn :  1
+eko :  6
+ekr :  3
+ekt :  63
+el  :  98
+el. :  1
+el0 :  13
+ela :  16
+elb :  25
+elc :  6
+eld :  15
+ele :  112
+elf :  5
+elg :  3
+elh :  1
+eli :  22
+ell :  138
+elm :  3
+eln :  43
+elp :  1
+elr :  3
+els :  24
+elt :  43
+elu :  15
+elv :  1
+elw :  1
+em  :  276
+em. :  1
+ema :  24
+emb :  14
+emd :  6
+eme :  101
+emf :  1
+emh :  7
+emi :  4
+eml :  2
+emm :  1
+emn :  1
+emo :  8
+emp :  12
+ems :  1
+en  :  3704
+en. :  384
+ena :  34
+enb :  14
+end :  258
+ene :  157
+enf :  12
+eng :  32
+enh :  50
+eni :  28
+enk :  37
+enl :  6
+enm :  5
+enn :  124
+eno :  34
+enp :  1
+enq :  1
+enr :  3
+ens :  89
+ent :  490
+enu :  8
+env :  12
+enw :  13
+enz :  41
+eog :  2
+eor :  17
+epa :  5
+epl :  3
+epo :  1
+epp :  2
+epr :  10
+ept :  19
+epu :  1
+equ :  3
+er  :  1927
+er. :  8
+era :  111
+erb :  91
+erc :  32
+erd :  168
+ere :  407
+erf :  72
+erg :  77
+erh :  117
+eri :  263
+erk :  107
+erl :  75
+erm :  24
+ern :  241
+ero :  10
+erp :  13
+err :  211
+ers :  288
+ert :  202
+eru :  278
+erv :  25
+erw :  86
+erz :  42
+es  :  537
+es. :  4
+esa :  14
+esb :  3
+esc :  106
+ese :  340
+esf :  2
+esh :  32
+esi :  21
+esj :  1
+esl :  1
+esm :  1
+eso :  87
+esp :  28
+esr :  1
+ess :  88
+est :  142
+esu :  6
+esv :  2
+esw :  8
+esz :  2
+et  :  80
+et. :  13
+eta :  10
+ete :  111
+eth :  4
+eti :  1
+etk :  1
+etl :  1
+eto :  2
+etr :  59
+ets :  8
+ett :  30
+etw :  15
+etz :  124
+eu  :  20
+eub :  2
+eud :  2
+eue :  63
+eug :  6
+euk :  1
+eul :  1
+eum :  1
+eun :  9
+eur :  142
+eus :  1
+eut :  99
+euu :  1
+eva :  9
+eve :  4
+evi :  2
+evl :  7
+evo :  4
+evp :  2
+ewa :  6
+ewe :  56
+ewh :  11
+ewi :  36
+ewl :  1
+ewn :  5
+ewo :  17
+ewu :  2
+ex  :  4
+exa :  6
+exe :  1
+exi :  12
+exp :  7
+ext :  5
+exz :  1
+ez  :  4
+eze :  18
+ezg :  4
+ezh :  1
+ezi :  29
+ezo :  7
+ezu :  13
+f   :  1
+f 0 :  3
+f a :  6
+f b :  4
+f d :  115
+f e :  28
+f f :  2
+f g :  4
+f h :  15
+f i :  4
+f j :  12
+f k :  2
+f l :  4
+f m :  3
+f n :  7
+f o :  1
+f p :  6
+f r :  2
+f s :  12
+f u :  5
+f v :  6
+f w :  2
+f z :  4
+fac :  15
+fah :  42
+fak :  5
+fal :  43
+fan :  12
+far :  1
+fas :  21
+fat :  8
+fba :  2
+fbe :  1
+fbi :  2
+fbr :  1
+fch :  1
+fe  :  17
+feb :  7
+fed :  1
+feh :  13
+fei :  3
+fek :  7
+fel :  12
+fen :  119
+fer :  39
+fes :  30
+ffa :  4
+ffe :  89
+ffh :  1
+ffi :  14
+ffn :  1
+ffo :  5
+fft :  11
+ffu :  9
+fga :  3
+fge :  30
+fgr :  11
+fgt :  1
+fgu :  5
+fha :  1
+fhi :  17
+fhl :  2
+fho :  1
+fhr :  66
+fie :  1
+fig :  7
+fik :  4
+fin :  48
+fis :  13
+fit :  2
+fix :  1
+fiz :  21
+fja :  4
+fkl :  1
+fko :  1
+fl  :  2
+fla :  2
+fle :  15
+fli :  12
+fll :  15
+flo :  1
+fls :  1
+flt :  1
+flu :  4
+fma :  3
+fme :  16
+fna :  3
+fne :  1
+fnf :  21
+fni :  1
+fnu :  1
+foh :  1
+fol :  61
+fon :  68
+for :  104
+fpa :  1
+fr  :  281
+fra :  194
+frc :  4
+frd :  46
+fre :  26
+frh :  7
+fri :  13
+fro :  4
+fru :  4
+frw :  4
+fs  :  3
+fsc :  3
+fsl :  1
+fsm :  1
+fst :  3
+ft  :  83
+ft. :  3
+fte :  38
+fti :  56
+ftl :  41
+ftp :  1
+ftq :  1
+ftr :  5
+fts :  31
+ftt :  2
+ftu :  1
+ftv :  1
+fug :  4
+fuh :  1
+fun :  42
+fur :  1
+fwa :  1
+fwe :  2
+fze :  2
+fzu :  4
+g   :  6
+g 0 :  2
+g a :  67
+g b :  29
+g c :  1
+g d :  294
+g e :  37
+g f :  32
+g g :  30
+g h :  11
+g i :  59
+g k :  4
+g l :  3
+g m :  33
+g n :  24
+g o :  4
+g p :  2
+g r :  4
+g s :  49
+g t :  5
+g u :  70
+g v :  73
+g w :  22
+g z :  68
+gab :  20
+gag :  1
+gal :  1
+gan :  63
+gar :  14
+gat :  5
+gau :  1
+gbe :  2
+ge  :  207
+ge. :  8
+gea :  1
+geb :  104
+ged :  9
+gee :  11
+gef :  63
+geg :  53
+geh :  81
+gei :  4
+gek :  7
+gel :  91
+gem :  78
+gen :  700
+geo :  19
+gep :  7
+ger :  156
+ges :  207
+get :  20
+geu :  4
+gew :  72
+gez :  12
+gfa :  2
+gfl :  3
+gfo :  2
+gfr :  1
+ght :  2
+gib :  22
+gie :  39
+gig :  14
+gil :  7
+gin :  33
+gio :  174
+gip :  2
+gis :  24
+gke :  68
+gks :  1
+gla :  12
+glc :  11
+gle :  52
+gli :  118
+glo :  5
+glt :  4
+gna :  10
+gne :  6
+gng :  6
+gni :  11
+gno :  1
+gns :  5
+gnz :  3
+go  :  2
+gon :  2
+gor :  1
+gos :  3
+gou :  1
+gps :  1
+gra :  92
+gre :  35
+gri :  9
+grn :  11
+gro :  36
+grt :  3
+gru :  46
+gs  :  21
+gsa :  36
+gsb :  11
+gsc :  4
+gsd :  1
+gse :  4
+gsf :  3
+gsg :  5
+gsi :  5
+gsj :  1
+gsk :  1
+gsl :  1
+gsm :  4
+gsn :  4
+gsp :  27
+gsq :  2
+gsr :  7
+gss :  11
+gst :  23
+gsu :  4
+gsv :  13
+gsw :  5
+gsz :  4
+gt  :  101
+gt. :  14
+gte :  36
+gtg :  1
+gto :  1
+gue :  2
+gum :  1
+gun :  97
+gut :  33
+gve :  1
+gwe :  1
+gwr :  1
+gze :  3
+h   :  3
+h 0 :  2
+h a :  104
+h b :  51
+h d :  211
+h e :  71
+h f :  26
+h g :  51
+h h :  44
+h i :  74
+h j :  4
+h k :  29
+h l :  7
+h m :  88
+h n :  50
+h o :  6
+h p :  4
+h r :  8
+h s :  69
+h t :  2
+h u :  35
+h v :  35
+h w :  56
+h z :  42
+h.  :  1
+hab :  99
+had :  2
+haf :  145
+hag :  1
+hal :  141
+han :  59
+hap :  1
+har :  16
+has :  9
+hat :  102
+hau :  38
+hba :  2
+hch :  1
+hda :  1
+hde :  5
+hdr :  4
+he  :  227
+he. :  4
+heb :  13
+hed :  1
+hee :  1
+hef :  1
+heh :  3
+hei :  140
+hel :  3
+hem :  16
+hen :  553
+her :  364
+hes :  13
+het :  1
+heu :  31
+hez :  2
+hfa :  1
+hfe :  1
+hfh :  7
+hfr :  2
+hft :  44
+hge :  14
+hgl :  1
+hha :  12
+hhe :  15
+hho :  1
+hht :  3
+hhu :  6
+hic :  4
+hie :  104
+hif :  2
+hig :  21
+hil :  18
+hin :  82
+his :  5
+hja :  2
+hke :  33
+hko :  2
+hku :  1
+hl  :  21
+hla :  39
+hlb :  1
+hld :  1
+hle :  19
+hlf :  3
+hlg :  11
+hlh :  2
+hli :  52
+hll :  1
+hlo :  12
+hlp :  6
+hlr :  4
+hls :  10
+hlt :  21
+hlu :  34
+hm  :  5
+hma :  7
+hme :  106
+hmi :  8
+hmo :  1
+hn  :  12
+hn. :  1
+hna :  1
+hne :  66
+hng :  6
+hnh :  1
+hni :  14
+hnl :  2
+hnn :  1
+hno :  5
+hns :  3
+hnt :  11
+hnu :  9
+hob :  4
+hoc :  4
+hod :  3
+hof :  16
+hoh :  9
+hol :  4
+hon :  14
+hor :  3
+how :  1
+hpf :  1
+hpr :  1
+hpu :  1
+hqu :  1
+hr  :  166
+hr. :  1
+hrd :  3
+hre :  202
+hrf :  9
+hrg :  15
+hrh :  4
+hri :  38
+hrj :  1
+hrl :  22
+hrn :  4
+hro :  13
+hrr :  1
+hrs :  24
+hrt :  41
+hru :  33
+hrz :  3
+hs  :  4
+hsc :  6
+hse :  11
+hsi :  34
+hss :  1
+hst :  71
+ht  :  402
+ht. :  30
+hta :  1
+htb :  3
+hte :  212
+htf :  4
+hth :  1
+hti :  91
+htl :  49
+htm :  1
+htr :  1
+hts :  45
+htt :  16
+htu :  19
+htw :  2
+htz :  9
+hu  :  24
+huf :  6
+hul :  10
+hum :  3
+hun :  33
+hus :  15
+hut :  13
+huv :  2
+hve :  2
+hwa :  3
+hwc :  4
+hwe :  17
+hwi :  9
+hwo :  1
+hwu :  3
+hy  :  2
+hyp :  1
+hze :  6
+hzu :  3
+i 0 :  5
+i a :  5
+i c :  1
+i d :  74
+i e :  11
+i f :  8
+i g :  5
+i h :  3
+i i :  3
+i l :  5
+i m :  5
+i n :  2
+i p :  2
+i s :  2
+i t :  1
+i u :  5
+i v :  6
+i w :  4
+i z :  2
+ial :  62
+iar :  5
+iat :  9
+ibe :  10
+ibi :  7
+ibl :  4
+ibt :  34
+ibu :  4
+ich :  1671
+ici :  2
+ick :  93
+id  :  2
+ida :  5
+ide :  150
+idi :  8
+idl :  1
+idm :  5
+idu :  14
+ie  :  1287
+ie. :  1
+iea :  1
+ieb :  36
+iec :  3
+ied :  136
+iee :  21
+ief :  10
+ieg :  39
+ieh :  29
+iei :  1
+iej :  6
+iel :  161
+iem :  5
+ien :  147
+iep :  3
+ier :  244
+ies :  330
+iet :  33
+ieu :  4
+iev :  2
+ifa :  3
+ife :  12
+iff :  16
+ifh :  1
+ifi :  17
+ifo :  1
+ift :  21
+ifu :  2
+ig  :  108
+ig. :  3
+iga :  1
+ige :  242
+igh :  2
+igi :  2
+igk :  68
+igl :  5
+ign :  14
+igr :  4
+igs :  12
+igt :  50
+igu :  56
+igw :  1
+ihe :  7
+ihi :  5
+ihm :  5
+ihn :  38
+ihr :  109
+iht :  1
+ii. :  1
+iii :  1
+ijv :  1
+ik  :  73
+ik. :  3
+ika :  25
+ike :  25
+ikf :  1
+iki :  2
+iko :  2
+il  :  42
+il. :  1
+ila :  1
+ild :  21
+ile :  13
+ilf :  18
+ilg :  1
+ili :  22
+ill :  22
+iln :  1
+ilo :  2
+ils :  4
+ilt :  15
+ilu :  7
+ilv :  1
+ilw :  4
+im  :  169
+ima :  17
+ime :  8
+imi :  5
+imm :  96
+imn :  1
+imp :  2
+imu :  1
+in  :  653
+in. :  11
+ina :  32
+inb :  26
+ind :  192
+ine :  506
+inf :  36
+ing :  108
+inh :  20
+ini :  154
+ink :  13
+inl :  5
+inm :  7
+inn :  87
+inr :  10
+ins :  155
+int :  37
+inu :  26
+inv :  15
+inw :  15
+inz :  39
+io  :  5
+iod :  28
+iok :  4
+ion :  577
+ior :  21
+ip  :  13
+ip. :  1
+ipf :  2
+iph :  1
+ipi :  4
+ipl :  1
+ipo :  1
+ips :  1
+ir  :  271
+ira :  2
+ird :  87
+ire :  7
+irf :  1
+irg :  1
+irk :  54
+iro :  1
+irr :  2
+irs :  1
+irt :  72
+is  :  40
+is. :  4
+isa :  4
+isc :  272
+ise :  50
+ish :  6
+isi :  33
+isk :  14
+isl :  8
+ism :  2
+iso :  2
+isp :  15
+iss :  213
+ist :  258
+isu :  1
+isz :  1
+it  :  390
+it. :  5
+ita :  14
+itb :  5
+ite :  153
+itf :  1
+itg :  55
+ith :  1
+iti :  158
+itl :  69
+itn :  1
+ito :  8
+itp :  6
+itr :  40
+its :  112
+itt :  171
+itu :  41
+itw :  3
+itz :  24
+ium :  6
+iv  :  9
+iva :  10
+ive :  54
+ivi :  9
+ivm :  1
+ivp :  4
+ivs :  1
+ivv :  1
+ixi :  1
+ize :  7
+izi :  29
+izo :  2
+izu :  3
+ja  :  7
+jah :  54
+jam :  1
+jan :  6
+jap :  1
+jas :  1
+je  :  2
+jed :  36
+jek :  10
+jem :  1
+jen :  9
+jet :  21
+jew :  4
+jhr :  5
+jim :  1
+jng :  4
+jon :  1
+jug :  7
+jul :  3
+jun :  4
+jur :  1
+jva :  1
+k 0 :  1
+k a :  16
+k b :  6
+k c :  1
+k d :  26
+k e :  7
+k f :  5
+k g :  3
+k h :  6
+k i :  8
+k k :  3
+k m :  3
+k n :  6
+k r :  2
+k s :  9
+k t :  1
+k u :  6
+k v :  7
+k w :  2
+k z :  6
+k00 :  2
+ka  :  10
+kal :  14
+kam :  4
+kan :  51
+kap :  9
+kar :  8
+kat :  28
+kau :  4
+kay :  1
+kba :  2
+kbi :  1
+ke  :  17
+keh :  47
+kei :  142
+kel :  26
+ken :  81
+kep :  1
+ker :  16
+kfa :  1
+kfe :  1
+kga :  1
+kge :  1
+kha :  1
+khe :  1
+khn :  1
+kil :  1
+kin :  1
+kis :  3
+kit :  2
+kla :  22
+kle :  14
+kli :  31
+klr :  19
+klt :  2
+klu :  63
+kmi :  2
+kmp :  8
+kmu :  2
+kna :  1
+knd :  2
+knf :  7
+kni :  4
+knn :  55
+kno :  1
+knp :  2
+ko  :  1
+koc :  14
+kod :  4
+kof :  3
+koh :  34
+kok :  1
+kol :  73
+kom :  254
+kon :  75
+koo :  11
+kop :  7
+kor :  1
+kos :  7
+kov :  1
+kra :  21
+kre :  12
+krf :  5
+kri :  10
+kro :  1
+krp :  2
+krz :  2
+ks  :  4
+ksa :  20
+ksc :  1
+ksf :  1
+ksi :  31
+kst :  11
+kt  :  88
+kt. :  10
+kta :  1
+kte :  49
+kti :  90
+kto :  19
+ktr :  3
+kts :  1
+ktt :  1
+ktu :  89
+kul :  3
+kum :  9
+kun :  44
+kur :  17
+kus :  3
+kut :  10
+kuu :  1
+kvi :  1
+kwe :  1
+kwi :  2
+kwn :  9
+kze :  9
+kzu :  2
+l   :  2
+l 0 :  15
+l a :  17
+l b :  14
+l d :  67
+l e :  12
+l f :  9
+l g :  9
+l h :  5
+l i :  26
+l j :  1
+l k :  3
+l m :  8
+l n :  6
+l r :  3
+l s :  15
+l t :  1
+l u :  17
+l v :  12
+l w :  6
+l z :  16
+l0f :  2
+l0g :  2
+l0p :  1
+l0r :  8
+la  :  2
+lab :  1
+lac :  4
+lad :  4
+lag :  97
+lak :  1
+lam :  86
+lan :  93
+lap :  2
+lar :  14
+las :  25
+lat :  15
+lau :  33
+law :  1
+lb  :  45
+lba :  2
+lbe :  7
+lbs :  18
+lbz :  4
+lch :  18
+lck :  12
+ld  :  7
+lde :  23
+ldi :  5
+ldu :  19
+le  :  125
+le. :  4
+leb :  14
+lec :  2
+led :  5
+lee :  1
+leg :  129
+leh :  13
+lei :  191
+lek :  4
+lel :  1
+lem :  52
+len :  198
+ler :  50
+les :  32
+let :  30
+leu :  4
+lev :  2
+lex :  14
+lez :  1
+lfa :  3
+lfe :  14
+lfm :  3
+lfo :  2
+lfr :  3
+lfs :  2
+lft :  4
+lg  :  11
+lge :  55
+lgi :  4
+lgr :  6
+lgt :  10
+lha :  3
+lht :  1
+li  :  4
+lib :  1
+lic :  449
+lid :  4
+lie :  164
+lif :  2
+lig :  24
+lik :  1
+lil :  1
+lim :  6
+lin :  97
+lis :  16
+lit :  119
+liz :  6
+lke :  7
+lko :  2
+lks :  1
+ll  :  56
+ll. :  7
+lla :  2
+lle :  257
+llg :  10
+lli :  18
+llk :  2
+llo :  4
+llp :  1
+lls :  28
+llt :  56
+llu :  29
+llw :  1
+llz :  8
+lme :  2
+lmi :  1
+lmo :  1
+ln  :  26
+ln. :  3
+lnd :  73
+lne :  15
+lng :  12
+lo  :  1
+lob :  6
+loc :  1
+log :  12
+lok :  11
+lon :  1
+loo :  1
+lor :  1
+los :  48
+lot :  1
+lov :  1
+lpa :  1
+lpe :  9
+lph :  1
+lpo :  25
+lpr :  3
+lpu :  1
+lre :  13
+lrt :  2
+lru :  11
+ls  :  111
+ls. :  1
+lsc :  11
+lse :  5
+lso :  17
+lss :  14
+lst :  11
+lsu :  4
+lsw :  5
+lsy :  1
+lt  :  69
+lt. :  17
+lte :  122
+lti :  23
+ltl :  3
+ltm :  1
+ltn :  5
+ltp :  1
+ltr :  1
+lts :  13
+ltu :  24
+ltz :  15
+lu  :  11
+lu. :  1
+luf :  19
+lug :  1
+lui :  1
+lun :  141
+lus :  2
+lut :  5
+lux :  1
+lve :  5
+lvo :  1
+lwe :  5
+lwi :  3
+lyn :  2
+lys :  13
+lyz :  1
+lzi :  2
+lzo :  1
+lzu :  6
+m   :  1
+m 0 :  21
+m a :  52
+m b :  62
+m c :  3
+m d :  75
+m e :  59
+m f :  28
+m g :  39
+m h :  36
+m i :  18
+m j :  11
+m k :  18
+m l :  17
+m m :  27
+m n :  29
+m o :  4
+m p :  40
+m r :  19
+m s :  60
+m t :  22
+m u :  16
+m v :  35
+m w :  27
+m x :  1
+m z :  41
+m00 :  5
+ma  :  12
+mac :  35
+mad :  1
+mae :  6
+mag :  4
+mai :  3
+mak :  1
+mal :  47
+man :  68
+mar :  14
+mas :  5
+mat :  22
+mau :  1
+max :  5
+mba :  6
+mbe :  10
+mbu :  2
+mcc :  2
+mch :  90
+mde :  6
+me  :  76
+me. :  3
+meb :  1
+mec :  2
+med :  1
+mee :  2
+meh :  53
+mei :  169
+mel :  6
+men :  432
+mer :  67
+mes :  15
+met :  6
+mfa :  9
+mfe :  1
+mfl :  1
+mge :  9
+mgl :  39
+mht :  5
+mhu :  2
+mic :  31
+mid :  1
+mie :  10
+mif :  1
+mig :  14
+mil :  3
+min :  30
+mir :  26
+mis :  184
+mit :  299
+miv :  1
+mka :  3
+mke :  9
+mli :  11
+mm  :  23
+mma :  5
+mme :  183
+mmi :  184
+mmk :  3
+mmm :  1
+mmn :  1
+mmp :  7
+mmr :  1
+mms :  7
+mmt :  37
+mmu :  35
+mmz :  1
+mn  :  1
+mnc :  1
+mnd :  6
+mne :  2
+mng :  1
+mni :  2
+mnn :  2
+mo  :  1
+mob :  1
+mod :  11
+mog :  1
+mok :  8
+mom :  1
+mon :  27
+mor :  18
+mos :  1
+mot :  3
+mpe :  8
+mpf :  18
+mph :  2
+mpl :  11
+mpo :  1
+mpr :  2
+mps :  1
+mpu :  1
+mre :  2
+mru :  1
+mrz :  1
+ms  :  27
+ms. :  1
+msb :  1
+msc :  2
+mse :  23
+mss :  44
+mst :  12
+mt  :  20
+mt. :  14
+mta :  1
+mte :  19
+mtl :  6
+mu  :  37
+mu. :  4
+mul :  6
+mum :  1
+mun :  40
+mus :  1
+mut :  9
+mve :  1
+mvo :  1
+mwe :  9
+mwu :  1
+mze :  1
+mzi :  1
+mzu :  3
+n   :  33
+n 0 :  22
+n a :  331
+n b :  307
+n c :  9
+n d :  985
+n e :  325
+n f :  188
+n g :  159
+n h :  138
+n i :  294
+n j :  42
+n k :  164
+n l :  88
+n m :  208
+n n :  134
+n o :  44
+n p :  112
+n q :  3
+n r :  136
+n s :  384
+n t :  51
+n u :  435
+n v :  182
+n w :  419
+n z :  217
+n.  :  1
+nab :  2
+nac :  96
+nad :  1
+nag :  1
+nah :  45
+nak :  1
+nal :  98
+nam :  18
+nan :  30
+nap :  1
+nar :  11
+nat :  44
+nau :  19
+nba :  14
+nbe :  19
+nbi :  2
+nbl :  10
+nbu :  1
+nce :  12
+nch :  30
+nck :  1
+nct :  1
+nd  :  876
+nd. :  27
+nda :  3
+ndb :  1
+nde :  470
+ndf :  1
+ndg :  2
+ndh :  1
+ndi :  57
+ndl :  105
+ndn :  3
+ndo :  6
+ndp :  8
+ndr :  5
+nds :  89
+ndt :  1
+ndu :  28
+ndw :  17
+ne  :  289
+ne. :  4
+nea :  1
+neb :  5
+neg :  5
+neh :  58
+nei :  5
+nel :  16
+nem :  50
+nen :  487
+ner :  199
+nes :  25
+net :  36
+neu :  48
+nex :  1
+nez :  1
+nf  :  11
+nfa :  30
+nfe :  9
+nfh :  4
+nfj :  4
+nfl :  7
+nfo :  23
+nfr :  19
+nft :  30
+ng  :  715
+ng. :  19
+nga :  1
+nge :  390
+ngf :  3
+ngi :  7
+ngl :  36
+ngn :  8
+ngo :  1
+ngp :  1
+ngr :  3
+ngs :  174
+ngt :  19
+ngu :  18
+ngz :  1
+nha :  38
+nhe :  41
+nhn :  3
+nho :  1
+nhu :  1
+ni  :  2
+nic :  189
+nie :  121
+nif :  3
+nig :  72
+nik :  10
+nim :  6
+nin :  1
+nio :  55
+nis :  79
+nit :  18
+niu :  2
+niv :  7
+nju :  1
+nk  :  12
+nk. :  1
+nka :  4
+nkb :  2
+nke :  48
+nkf :  1
+nkl :  3
+nkn :  1
+nko :  11
+nkr :  13
+nks :  2
+nkt :  82
+nku :  2
+nla :  6
+nle :  6
+nli :  7
+nln :  1
+nma :  12
+nme :  7
+nmi :  2
+nml :  9
+nn  :  165
+nn. :  8
+nna :  6
+nnd :  1
+nne :  154
+nnf :  5
+nng :  3
+nnh :  6
+nni :  4
+nno :  4
+nns :  1
+nnt :  45
+nnu :  1
+nnv :  6
+nnz :  2
+no  :  2
+noc :  56
+nog :  1
+nol :  5
+nom :  42
+nop :  1
+nor :  17
+not :  15
+nov :  4
+now :  1
+npf :  2
+npo :  1
+nqu :  1
+nr. :  1
+nra :  3
+nrd :  4
+nre :  8
+nri :  6
+nru :  5
+ns  :  91
+ns. :  1
+nsa :  26
+nsb :  40
+nsc :  87
+nsd :  2
+nse :  96
+nsf :  16
+nsg :  4
+nsi :  41
+nsk :  3
+nsl :  5
+nsm :  1
+nsn :  2
+nso :  8
+nsp :  41
+nsq :  3
+nss :  3
+nst :  93
+nsu :  1
+nsv :  3
+nsw :  2
+nt  :  152
+nt. :  6
+nta :  14
+ntb :  1
+nte :  213
+ntf :  4
+ntg :  4
+nth :  9
+nti :  71
+ntl :  32
+ntn :  7
+ntr :  81
+nts :  78
+ntu :  4
+ntw :  105
+ntz :  2
+nu  :  1
+nua :  6
+nug :  2
+nui :  1
+num :  4
+nun :  106
+nur :  58
+nus :  3
+nut :  20
+nve :  29
+nvi :  2
+nvo :  7
+nwa :  9
+nwe :  20
+nwi :  3
+nwn :  1
+nwo :  1
+nwr :  4
+nz  :  52
+nz. :  1
+nza :  1
+nzb :  1
+nze :  41
+nzg :  1
+nzi :  34
+nzl :  1
+nzm :  2
+nzo :  1
+nzs :  4
+nzt :  3
+nzu :  29
+nzw :  3
+o   :  1
+o 0 :  2
+o a :  6
+o b :  5
+o d :  21
+o e :  12
+o f :  2
+o g :  6
+o h :  3
+o i :  8
+o j :  1
+o k :  6
+o l :  2
+o m :  3
+o n :  1
+o o :  1
+o p :  3
+o s :  8
+o t :  1
+o v :  7
+o w :  11
+o z :  2
+o.  :  1
+oad :  1
+oar :  1
+ob  :  19
+oba :  6
+obe :  16
+obg :  2
+obi :  2
+obl :  35
+obo :  2
+obw :  3
+ocb :  1
+och :  149
+oci :  2
+ock :  3
+od  :  2
+od. :  1
+oda :  4
+ode :  83
+odi :  24
+odu :  10
+oe  :  14
+oed :  13
+oem :  2
+oen :  14
+oer :  2
+oet :  3
+of  :  1
+ofe :  6
+off :  32
+ofi :  5
+ofo :  1
+oft :  8
+og  :  2
+oga :  9
+oge :  17
+ogi :  10
+ogr :  78
+ogu :  1
+ohe :  10
+ohj :  1
+ohl :  24
+ohn :  11
+ohs :  34
+oij :  1
+oin :  3
+oje :  10
+oka :  12
+oko :  18
+okr :  14
+okt :  1
+oku :  7
+ol  :  1
+olc :  12
+ole :  2
+olg :  61
+oli :  98
+olk :  1
+oll :  173
+olo :  7
+olp :  1
+olt :  1
+olu :  1
+olv :  1
+oly :  1
+om  :  23
+om0 :  5
+oma :  2
+omb :  1
+ome :  1
+omi :  18
+omm :  272
+omn :  1
+omp :  11
+on  :  536
+on. :  9
+ona :  93
+onc :  1
+ond :  153
+one :  156
+onf :  11
+oni :  21
+onj :  1
+onk :  9
+onn :  24
+ono :  6
+ons :  61
+ont :  13
+onv :  2
+onz :  19
+ooi :  1
+oor :  11
+opa :  41
+ope :  2
+opf :  9
+oph :  11
+opi :  90
+opo :  1
+opp :  3
+opt :  8
+or  :  70
+or. :  2
+ora :  19
+orb :  14
+ord :  172
+ore :  15
+orf :  2
+org :  62
+orh :  13
+ori :  39
+orl :  20
+orm :  45
+orn :  1
+orr :  14
+ors :  77
+ort :  84
+oru :  2
+orw :  2
+orz :  11
+os  :  13
+os. :  3
+ose :  9
+osi :  41
+oso :  1
+oss :  12
+ost :  19
+ot  :  4
+ote :  16
+oth :  1
+oti :  2
+oto :  11
+ots :  3
+ott :  1
+otu :  2
+otw :  15
+otz :  6
+oup :  1
+our :  9
+out :  1
+ouv :  1
+ov  :  1
+ova :  1
+ove :  2
+ovi :  2
+ovo :  1
+ow  :  1
+owe :  1
+owh :  2
+owi :  26
+owo :  11
+ox  :  1
+ox. :  1
+oxe :  1
+oze :  11
+ozg :  1
+ozi :  55
+p d :  4
+p e :  2
+p i :  3
+p k :  1
+p p :  1
+p u :  2
+p w :  1
+pa  :  23
+paa :  3
+pac :  1
+pad :  1
+pak :  2
+pal :  5
+pan :  3
+pap :  1
+par :  119
+pas :  19
+pat :  1
+paw :  3
+paz :  1
+pe  :  3
+pea :  1
+ped :  5
+pei :  2
+pek :  22
+pel :  5
+pen :  5
+per :  49
+pes :  2
+pet :  4
+pez :  11
+pf  :  4
+pfa :  1
+pfb :  2
+pfe :  17
+pfl :  10
+pfo :  1
+pfr :  1
+pft :  1
+pfu :  7
+pha :  11
+phe :  12
+phi :  2
+pie :  25
+pis :  90
+pit :  9
+pka :  1
+pla :  23
+pld :  1
+ple :  5
+pli :  8
+pln :  3
+plo :  2
+plt :  15
+pne :  1
+po  :  5
+poe :  3
+poh :  1
+pol :  96
+pon :  2
+por :  22
+pos :  18
+pot :  7
+ppe :  14
+ppl :  2
+ppn :  1
+pra :  35
+prb :  1
+pre :  41
+prf :  25
+prg :  2
+pri :  50
+prl :  1
+prn :  2
+pro :  182
+prs :  110
+pru :  3
+prv :  2
+prz :  2
+pse :  1
+pso :  1
+pss :  1
+pst :  1
+pt  :  13
+pta :  2
+pte :  8
+ptg :  1
+pti :  17
+ptp :  1
+ptr :  1
+pts :  2
+ptz :  1
+pub :  1
+pue :  1
+pul :  1
+pun :  59
+put :  1
+qua :  12
+que :  7
+quo :  2
+qus :  3
+r   :  5
+r 0 :  18
+r a :  251
+r b :  193
+r c :  10
+r d :  387
+r e :  243
+r f :  108
+r g :  121
+r h :  92
+r i :  129
+r j :  12
+r k :  168
+r l :  75
+r m :  120
+r n :  74
+r o :  16
+r p :  149
+r q :  4
+r r :  113
+r s :  257
+r t :  47
+r u :  122
+r v :  162
+r w :  135
+r z :  70
+r.  :  1
+ra  :  1
+rab :  13
+rac :  49
+rad :  19
+rae :  27
+raf :  7
+rag :  107
+rah :  13
+rak :  60
+ral :  19
+ram :  79
+ran :  135
+rap :  3
+rar :  20
+ras :  15
+rat :  82
+rau :  194
+rav :  1
+rax :  1
+ray :  1
+rba :  6
+rbe :  172
+rbi :  7
+rbl :  2
+rbn :  4
+rbo :  1
+rbr :  8
+rbs :  30
+rbu :  3
+rce :  6
+rch :  72
+rck :  48
+rd  :  62
+rd. :  26
+rda :  3
+rde :  370
+rdi :  26
+rdl :  4
+rdn :  58
+rdr :  1
+re  :  183
+re. :  2
+rea :  8
+reb :  5
+rec :  81
+red :  16
+ref :  27
+reg :  211
+reh :  8
+rei :  235
+rek :  5
+rel :  14
+rem :  23
+ren :  316
+rep :  4
+rer :  77
+res :  53
+ret :  37
+reu :  13
+rev :  2
+rez :  1
+rf  :  14
+rf. :  1
+rfa :  28
+rfe :  18
+rfg :  6
+rfh :  1
+rfi :  1
+rfl :  4
+rfn :  1
+rfo :  76
+rfr :  1
+rfs :  2
+rft :  12
+rfu :  14
+rg  :  2
+rga :  22
+rge :  137
+rgf :  3
+rgi :  13
+rgl :  4
+rgn :  8
+rgo :  4
+rgr :  6
+rgt :  6
+rgu :  16
+rha :  43
+rhe :  71
+rhh :  10
+rhi :  8
+rhj :  1
+rhl :  5
+rhn :  1
+rho :  3
+rhr :  1
+rhu :  1
+ri  :  5
+ria :  5
+rib :  2
+ric :  225
+rie :  54
+rif :  33
+rig :  25
+rik :  5
+rim :  1
+rin :  101
+rio :  49
+rip :  1
+ris :  21
+rit :  67
+riu :  3
+riv :  9
+riz :  2
+rjh :  1
+rk  :  6
+rka :  7
+rke :  71
+rkl :  41
+rkn :  2
+rko :  4
+rkr :  1
+rks :  27
+rkt :  19
+rku :  28
+rla :  112
+rle :  21
+rli :  62
+rln :  9
+rlo :  1
+rls :  2
+rlt :  1
+rlu :  4
+rm  :  13
+rma :  10
+rme :  31
+rmg :  5
+rmi :  14
+rmo :  13
+rmp :  1
+rms :  5
+rmu :  14
+rmv :  1
+rmz :  1
+rn  :  166
+rn. :  13
+rna :  4
+rnd :  17
+rne :  49
+rnf :  1
+rng :  6
+rni :  13
+rnk :  4
+rnn :  5
+rno :  7
+rns :  15
+rnt :  3
+rnu :  2
+ro  :  5
+roa :  2
+rob :  34
+roc :  16
+rod :  17
+roe :  44
+rof :  12
+rog :  76
+roj :  10
+rok :  10
+rol :  17
+rom :  5
+ron :  4
+rop :  143
+ror :  10
+ros :  5
+rot :  19
+rou :  1
+row :  1
+roz :  12
+rpa :  1
+rpe :  5
+rpf :  4
+rpo :  16
+rpr :  4
+rpu :  3
+rr  :  115
+rra :  11
+rre :  56
+rri :  11
+rrn :  33
+rrs :  1
+rrt :  2
+rru :  2
+rs  :  26
+rs. :  1
+rsa :  6
+rsb :  2
+rsc :  112
+rse :  16
+rsi :  124
+rsm :  2
+rsn :  5
+rso :  4
+rsp :  7
+rss :  11
+rst :  192
+rsu :  14
+rsw :  3
+rt  :  132
+rt. :  12
+rta :  4
+rtb :  3
+rte :  146
+rtg :  2
+rth :  5
+rti :  33
+rtl :  12
+rtm :  1
+rtn :  13
+rtr :  37
+rts :  74
+rtu :  27
+rtv :  2
+rtz :  1
+ru  :  1
+rua :  7
+ruc :  18
+ruf :  7
+ruh :  6
+rui :  1
+ruk :  89
+rul :  2
+rum :  50
+run :  355
+rup :  3
+rur :  7
+rut :  7
+rva :  2
+rve :  11
+rvo :  14
+rwa :  30
+rwe :  36
+rwg :  2
+rwh :  5
+rwi :  11
+rwo :  5
+rws :  1
+rwu :  2
+ry  :  1
+rz  :  10
+rza :  5
+rze :  27
+rzg :  8
+rzi :  8
+rzl :  2
+rzo :  2
+rzt :  1
+rzu :  15
+s   :  9
+s . :  1
+s 0 :  13
+s a :  105
+s b :  84
+s c :  4
+s d :  171
+s e :  116
+s f :  57
+s g :  59
+s h :  46
+s i :  121
+s j :  11
+s k :  25
+s l :  25
+s m :  34
+s n :  49
+s o :  2
+s p :  93
+s r :  18
+s s :  78
+s t :  15
+s u :  74
+s v :  59
+s w :  73
+s z :  58
+sa  :  1
+sab :  1
+sac :  22
+sag :  39
+sah :  2
+sai :  1
+sam :  91
+san :  40
+sar :  36
+sas :  3
+sat :  21
+sau :  3
+sav :  1
+sba :  1
+sbe :  71
+sbi :  13
+sbr :  1
+sbu :  1
+sch :  978
+sde :  6
+sdi :  2
+sdo :  2
+sdr :  10
+se  :  153
+se. :  3
+sea :  1
+seb :  2
+sec :  15
+see :  5
+sef :  2
+seg :  1
+seh :  87
+sei :  88
+sek :  18
+sel :  51
+sem :  57
+sen :  249
+sep :  5
+seq :  3
+ser :  198
+ses :  56
+set :  69
+seu :  1
+sex :  1
+sfe :  2
+sfh :  26
+sfi :  4
+sfo :  25
+sfr :  3
+sga :  4
+sge :  41
+sgn :  1
+sgr :  7
+sh  :  1
+sha :  35
+she :  6
+si  :  1
+sib :  1
+sic :  238
+sid :  114
+sie :  200
+sif :  2
+sig :  34
+sik :  2
+sim :  1
+sin :  129
+sio :  188
+sis :  10
+sit :  57
+siv :  5
+sja :  1
+sjh :  1
+sk  :  1
+ska :  5
+ske :  1
+skl :  1
+sko :  8
+skr :  3
+sku :  15
+sla :  9
+sle :  2
+sli :  1
+sln :  5
+slo :  28
+slu :  2
+sma :  15
+sme :  1
+smg :  2
+smi :  8
+smo :  1
+smt :  6
+smu :  1
+sna :  4
+snc :  1
+sne :  3
+sni :  5
+snl :  4
+so  :  75
+soc :  1
+sof :  6
+sog :  10
+sol :  66
+som :  8
+son :  93
+sop :  1
+sor :  40
+sou :  6
+sov :  1
+sow :  38
+soz :  55
+spa :  13
+spe :  39
+sph :  4
+spi :  20
+spl :  21
+spo :  45
+spr :  111
+spt :  4
+spu :  6
+squ :  5
+src :  3
+sre :  19
+sri :  8
+ssa :  37
+ssc :  48
+sse :  251
+ssi :  173
+sso :  6
+ssp :  26
+sst :  16
+ssu :  6
+ssy :  1
+st  :  249
+st. :  38
+sta :  196
+stb :  1
+stc :  2
+std :  12
+ste :  344
+stg :  9
+sth :  1
+sti :  117
+stl :  11
+stm :  3
+stn :  31
+sto :  9
+str :  230
+sts :  9
+stt :  30
+stu :  31
+stv :  4
+stz :  21
+sub :  7
+suc :  17
+sud :  2
+sul :  1
+sum :  6
+sun :  19
+sur :  1
+sve :  11
+svg :  1
+svo :  19
+sw. :  3
+swa :  2
+swe :  20
+swh :  1
+swi :  14
+swo :  2
+syn :  3
+sys :  6
+sza :  2
+sze :  10
+szi :  3
+szu :  2
+t   :  19
+t 0 :  7
+t a :  140
+t b :  74
+t d :  402
+t e :  177
+t f :  34
+t g :  69
+t h :  92
+t i :  147
+t j :  7
+t k :  26
+t l :  20
+t m :  68
+t n :  70
+t o :  14
+t p :  11
+t q :  1
+t r :  10
+t s :  109
+t t :  1
+t u :  141
+t v :  78
+t w :  215
+t z :  79
+ta  :  1
+taa :  62
+tab :  6
+tad :  5
+tag :  51
+tah :  2
+tai :  5
+tal :  19
+tam :  2
+tan :  45
+tap :  1
+tar :  15
+tas :  13
+tat :  78
+tau :  7
+tba :  4
+tbe :  35
+tbl :  1
+tbr :  2
+tck :  2
+tdt :  12
+te  :  428
+te. :  20
+tea :  3
+teb :  1
+tec :  15
+tee :  4
+teg :  25
+teh :  47
+tei :  71
+tel :  137
+tem :  17
+ten :  660
+ter :  415
+tes :  23
+tet :  70
+teu :  20
+tex :  7
+tfe :  7
+tfi :  3
+tfo :  1
+tge :  19
+tgl :  56
+tgr :  1
+th  :  1
+tha :  9
+the :  15
+thi :  5
+thl :  4
+tho :  3
+thy :  2
+tia :  13
+tic :  1
+tie :  51
+tif :  4
+tig :  247
+tik :  99
+til :  2
+tim :  80
+tin :  41
+tio :  159
+tir :  1
+tis :  60
+tit :  19
+tiv :  64
+tiz :  1
+tko :  1
+tla :  7
+tle :  17
+tli :  233
+tln :  2
+tlo :  1
+tma :  3
+tme :  1
+tmg :  2
+tmi :  1
+tnd :  27
+tne :  15
+tni :  11
+tno :  4
+tob :  3
+toc :  2
+tod :  3
+toe :  1
+toi :  3
+tok :  10
+tol :  3
+ton :  2
+tor :  39
+tos :  1
+tot :  1
+tou :  1
+tpo :  2
+tpr :  1
+tpu :  6
+tqu :  1
+tra :  196
+trc :  6
+tre :  83
+trg :  26
+tri :  39
+trk :  23
+trl :  9
+trm :  5
+trn :  1
+tro :  39
+trp :  1
+trt :  1
+tru :  105
+trz :  1
+ts  :  99
+ts. :  4
+tsa :  16
+tsb :  15
+tsc :  122
+tsd :  3
+tse :  3
+tsf :  1
+tsg :  5
+tsi :  4
+tsk :  11
+tsl :  27
+tsm :  5
+tsn :  3
+tso :  5
+tsp :  51
+tsr :  1
+tss :  7
+tst :  17
+tsv :  8
+tsw :  3
+tsz :  6
+tt  :  38
+tt. :  6
+tta :  1
+ttb :  27
+tte :  205
+ttf :  2
+ttg :  3
+tti :  18
+ttl :  11
+tto :  4
+ttr :  14
+tts :  9
+ttt :  1
+ttu :  1
+ttw :  5
+ttz :  23
+tua :  14
+tud :  1
+tue :  2
+tuf :  1
+tug :  2
+tul :  2
+tum :  25
+tun :  130
+tur :  102
+tus :  1
+tut :  15
+tve :  6
+tvi :  1
+tvo :  1
+twa :  15
+twe :  19
+twi :  81
+two :  27
+twu :  4
+tz  :  32
+tza :  1
+tzb :  4
+tze :  67
+tzi :  5
+tzl :  13
+tzr :  1
+tzs :  1
+tzt :  80
+tzu :  69
+u . :  1
+u a :  16
+u b :  56
+u d :  61
+u e :  40
+u f :  26
+u g :  20
+u h :  11
+u i :  17
+u j :  1
+u k :  22
+u l :  8
+u m :  21
+u n :  11
+u o :  5
+u p :  33
+u r :  8
+u s :  64
+u t :  9
+u u :  21
+u v :  31
+u w :  12
+u z :  5
+u.  :  4
+ual :  11
+uar :  14
+uas :  1
+uat :  14
+uba :  2
+ube :  14
+ubi :  1
+ubl :  1
+ubr :  3
+ubs :  6
+ubt :  2
+ubv :  1
+ubw :  3
+uch :  186
+uck :  14
+ude :  8
+udg :  1
+udi :  1
+udr :  2
+ue  :  19
+uei :  1
+uel :  6
+uem :  1
+uen :  45
+uer :  79
+ues :  2
+uf  :  217
+uf. :  2
+ufb :  4
+ufe :  12
+uff :  9
+ufg :  42
+ufh :  6
+ufi :  7
+ufk :  2
+ufl :  1
+ufm :  16
+ufn :  4
+ufo :  15
+ufp :  1
+ufr :  5
+ufs :  5
+uft :  9
+ufu :  1
+ufw :  3
+ufz :  6
+ug  :  17
+uga :  4
+uge :  26
+ugi :  1
+ugn :  2
+ugr :  1
+ugs :  1
+ugt :  5
+ugu :  3
+ugz :  1
+uha :  2
+uhe :  2
+uhi :  2
+uho :  1
+uhr :  8
+uht :  3
+uie :  3
+ukn :  2
+uko :  4
+ukt :  99
+uku :  12
+ula :  4
+uld :  3
+ule :  11
+ulf :  3
+uli :  10
+uln :  3
+uls :  3
+ult :  6
+ulu :  2
+um  :  195
+um. :  5
+uma :  6
+umb :  1
+ume :  29
+umf :  10
+umg :  9
+umi :  6
+umm :  3
+umn :  2
+umo :  5
+umr :  2
+ums :  50
+umt :  3
+umu :  1
+umv :  1
+umw :  9
+umz :  3
+un  :  23
+un. :  4
+una :  1
+unb :  4
+unc :  15
+und :  737
+une :  14
+unf :  19
+ung :  1046
+unh :  2
+uni :  63
+unk :  68
+unm :  4
+unn :  14
+unr :  1
+uns :  139
+unt :  113
+unu :  1
+unv :  2
+unw :  1
+unz :  7
+uot :  2
+up  :  1
+upp :  3
+upt :  15
+ur  :  165
+ur. :  1
+urb :  2
+urc :  74
+urd :  48
+ure :  17
+urf :  46
+urg :  4
+uri :  3
+urk :  4
+url :  1
+urm :  3
+urn :  1
+uro :  133
+urp :  17
+urr :  1
+urs :  10
+urt :  7
+uru :  1
+urz :  15
+us  :  68
+us. :  3
+usa :  44
+usb :  14
+usc :  5
+usd :  11
+use :  17
+usf :  20
+usg :  38
+ush :  4
+usk :  2
+usl :  3
+usm :  7
+usn :  2
+uso :  1
+usr :  15
+uss :  101
+ust :  44
+usw :  14
+usz :  4
+ut  :  30
+ut. :  1
+utb :  1
+ute :  66
+uti :  34
+utl :  19
+utm :  1
+uto :  1
+utr :  5
+uts :  11
+utt :  15
+utu :  22
+utz :  26
+uum :  1
+uun :  2
+uve :  3
+uvi :  2
+uvo :  4
+uwe :  4
+uwi :  2
+uxe :  1
+uzh :  1
+uzi :  1
+uzu :  2
+v b :  3
+v d :  2
+v g :  1
+v r :  1
+v u :  2
+v v :  1
+vad :  1
+vag :  1
+vak :  1
+val :  1
+van :  11
+var :  1
+vat :  16
+ve  :  18
+ve. :  1
+vea :  7
+vem :  2
+ven :  33
+ver :  442
+ves :  9
+vga :  1
+vie :  68
+vii :  1
+vis :  4
+vit :  7
+viz :  4
+vlk :  7
+vll :  3
+vmo :  1
+vo  :  1
+vol :  21
+vom :  23
+von :  232
+vor :  255
+vot :  2
+vpe :  1
+vpf :  1
+vpr :  4
+vsc :  1
+vvo :  1
+w b :  1
+w.  :  14
+wa  :  2
+wac :  25
+waf :  3
+wah :  11
+wal :  26
+wan :  8
+war :  70
+was :  64
+wch :  4
+wec :  8
+wed :  8
+weg :  19
+wei :  190
+wel :  13
+wen :  128
+wer :  218
+wes :  22
+wet :  27
+wgu :  2
+whl :  4
+whn :  6
+who :  1
+whr :  27
+wic :  124
+wid :  7
+wie :  170
+wil :  15
+win :  10
+wir :  459
+wis :  50
+wlt :  1
+wnd :  1
+wns :  19
+wo  :  13
+wob :  11
+woc :  18
+wog :  6
+woh :  29
+wol :  14
+won :  2
+wor :  79
+wrd :  21
+wre :  13
+wrt :  4
+wss :  1
+wte :  1
+wul :  3
+wun :  16
+wur :  54
+wut :  2
+wyn :  1
+x   :  1
+x d :  1
+x e :  1
+x h :  1
+x v :  1
+xak :  1
+xan :  3
+xas :  2
+xe  :  1
+xem :  1
+xen :  1
+xib :  10
+xie :  1
+xim :  5
+xio :  1
+xis :  2
+xpa :  1
+xpe :  3
+xpl :  3
+xt  :  2
+xte :  2
+xts :  1
+xvi :  1
+xxv :  1
+xze :  1
+y a :  1
+y d :  1
+y i :  1
+y n :  1
+y w :  1
+yne :  3
+ynn :  3
+ypo :  1
+yse :  13
+yst :  6
+yze :  1
+z 0 :  5
+z a :  5
+z b :  8
+z d :  27
+z e :  3
+z f :  4
+z g :  5
+z h :  4
+z i :  4
+z k :  5
+z l :  2
+z n :  3
+z o :  3
+z s :  3
+z u :  8
+z v :  5
+z w :  1
+z z :  3
+z.  :  1
+zah :  15
+zau :  1
+zba :  2
+zbe :  2
+zbu :  1
+ze  :  32
+ze. :  2
+zeh :  7
+zei :  96
+zel :  12
+zem :  4
+zen :  88
+zep :  18
+zer :  4
+zes :  7
+zeu :  6
+zge :  8
+zgi :  3
+zgl :  5
+zgr :  1
+zhl :  4
+zia :  51
+zic :  2
+zid :  3
+zie :  138
+zif :  10
+zig :  4
+zim :  2
+zin :  1
+zio :  4
+zip :  14
+zis :  2
+zit :  6
+zle :  1
+zli :  15
+zma :  1
+zmi :  1
+zog :  9
+zon :  4
+zor :  1
+zos :  1
+zre :  1
+zsi :  4
+zst :  1
+zt  :  45
+zt. :  9
+zte :  28
+ztr :  1
+zu  :  310
+zu. :  2
+zua :  1
+zub :  8
+zud :  3
+zue :  5
+zuf :  9
+zug :  33
+zuh :  6
+zuk :  17
+zul :  13
+zum :  60
+zun :  89
+zur :  94
+zus :  83
+zut :  5
+zuv :  6
+zuw :  6
+zuz :  3
+zw. :  10
+zwa :  11
+zwe :  43
+zwi :  33
