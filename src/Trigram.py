@@ -17,6 +17,7 @@ class Trigram():
 
     # Counts trigrams in input
     tri_counts = defaultdict(int)
+    bi_counts = defaultdict(int)
 
     # Task 1
     # Removes special characters
@@ -25,6 +26,7 @@ class Trigram():
     def preprocess_line(self, line):
         line = re.sub(r'[1-9]', '0', line)
         line = re.sub(r'[^a-z0.\s]', '', line.lower())
+        line = '#' + line[:-2] + '#'
         return line
 
     # This bit of code gives an example of how you might extract trigram counts
@@ -34,33 +36,39 @@ class Trigram():
     # your program, you may need to modify this code.
     def extractTrigram(self):
         print("Extracting trigrams")
-        total_tri_counts = 0
         with open(self.infile) as f:
             for line in f:
                 line = self.preprocess_line(line)
                 for j in range(len(line)-(3)):
                     trigram = line[j:j+3]
                     self.tri_counts[trigram] += 1
-                    total_tri_counts += 1
-        self.printTrigram(total_tri_counts)
+
+    def extractBigram(self):
+        print("Extracting bigrams")
+        with open(self.infile) as f:
+            for line in f:
+                line = self.preprocess_line(line)
+                for j in range(len(line)-(2)):
+                    bigram = line[j:j+2]
+                    self.bi_counts[bigram] += 1
 
     # Some example code that prints out the counts. For small input files
     # the counts are easy to look at but for larger files you can redirect
     # to an output file (see Lab 1).
-    def printTrigram(self, total_tri_counts):
-        print('total trigram count: ', total_tri_counts)
+
+    def printTrigram(self):
         print("Trigram counts in ", self.infile, ", sorted alphabetically:")
         with open('alphabetical_trigram.txt', 'w') as f:
             for trigram in sorted(self.tri_counts.keys()):
                 # print(trigram, ": ", self.tri_counts[trigram])
                 print(trigram, ": ",
-                      '{:.2e}'.format(self.tri_counts[trigram] / total_tri_counts), file=f)
+                      '{:.2e}'.format(self.tri_counts[trigram] / self.bi_counts[trigram[:-1]]), file=f)
         print("Trigram counts in ", self.infile, ", sorted numerically:")
         with open('numerical_trigram.txt', 'w') as f:
             for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
                 # print(tri_count[0], ": ", str(tri_count[1]))
                 print(tri_count[0], ": ", str(
-                    '{:.2e}'.format(tri_count[1] / total_tri_counts)), file=f)
+                    '{:.2e}'.format(tri_count[1] / self.bi_counts[1])), file=f)
 
     # Task 4
     # Generates output string based on language model
@@ -69,7 +77,9 @@ class Trigram():
 
 
 def main():
+    Trigram().extractBigram()
     Trigram().extractTrigram()
+    Trigram().printTrigram()
 
 
 if __name__ == "__main__":
