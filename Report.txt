@@ -1,0 +1,25 @@
+ANLP Project 1 Report
+
+Task 1:
+Code for preprocessor:
+
+########################################################
+    def preprocess_line(self, line):
+        line = re.sub(r'[1-9]', '0', line)
+        line = re.sub(r'[^a-z0.]', '', line.lower())
+        return line
+########################################################
+
+Task 2:
+Possible estimation methods used in example language model:
+
+Task 3:
+Method used to estimate probabilities:
+
+Task 4:
+
+
+Task 5:
+
+
+Task 6:
