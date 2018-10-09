@@ -68,7 +68,7 @@ class Trigram():
             for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
                 # print(tri_count[0], ": ", str(tri_count[1]))
                 print(tri_count[0], ": ", str(
-                    '{:.2e}'.format(tri_count[1] / self.bi_counts[1])), file=f)
+                    '{:.2e}'.format(tri_count[1] / self.bi_counts[tri_count[0][:-1]])), file=f)
 
     # Task 4
     # Generates output string based on language model
