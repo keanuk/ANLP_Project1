@@ -7,13 +7,9 @@ from collections import defaultdict
 
 class Trigram():
 
-    # Check if number of arguments are correct
-    if len(sys.argv) != 2:
-        print("Usage: ", sys.argv[0], "<training_file>")
-        sys.exit(1)
-
     # Gets file from argument
     infile = sys.argv[1]
+    language = sys.argv[1][-2:]
 
     # Counts trigrams in input
     tri_counts = defaultdict(int)
@@ -52,34 +48,64 @@ class Trigram():
                     bigram = line[j:j+2]
                     self.bi_counts[bigram] += 1
 
+    def extractNgram(self, ncounts, n):
+        print("Extracting Ngrams where N = ", n)
+        with open(self.infile) as f:
+            for line in f:
+                line = self.preprocess_line(line)
+                for j in range(len(line)-(n)):
+                    ncounts[line[j:j+2]] += 1
+
     # Some example code that prints out the counts. For small input files
     # the counts are easy to look at but for larger files you can redirect
     # to an output file (see Lab 1).
 
     def printTrigram(self):
-        print("Trigram counts in ", self.infile, ", sorted alphabetically:")
-        with open('alphabetical_trigram.txt', 'w') as f:
+        print("Generating trigram model from ",
+              self.infile, ", sorted alphabetically:")
+        with open('alphabetical_trigram.' + self.language, 'w') as f:
             for trigram in sorted(self.tri_counts.keys()):
-                # print(trigram, ": ", self.tri_counts[trigram])
                 print(trigram, ": ",
                       '{:.2e}'.format(self.tri_counts[trigram] / self.bi_counts[trigram[:-1]]), file=f)
-        print("Trigram counts in ", self.infile, ", sorted numerically:")
-        with open('numerical_trigram.txt', 'w') as f:
+        print("Generating trigram model from ",
+              self.infile, ", sorted numerically:")
+        with open('numerical_trigram.' + self.language, 'w') as f:
             for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
-                # print(tri_count[0], ": ", str(tri_count[1]))
                 print(tri_count[0], ": ", str(
                     '{:.2e}'.format(tri_count[1] / self.bi_counts[tri_count[0][:-1]])), file=f)
 
     # Task 4
     # Generates output string based on language model
     def generate_from_LM(self, model):
-        return ''
+        phrase = ''
+        for i in range(100):
+            rand = random()
+            for tri in sorted(self.tri_counts.items(), key=lambda x: x[1]):
+                if(rand < (tri[1] / self.bi_counts[tri[0][:-1]])):
+                    phrase += tri[0]
+                    break
+        return phrase
 
 
 def main():
+
+    # Check if number of arguments are correct
+    if len(sys.argv) != 2:
+        print("Usage: ", sys.argv[0], "<training_file>")
+        sys.exit(1)
+
     Trigram().extractBigram()
     Trigram().extractTrigram()
+    # Trigram().extractNgram(Trigram().bi_counts, 2)
+    # Trigram().extractNgram(Trigram().tri_counts, 3)
     Trigram().printTrigram()
+
+    exampleModel = '../assignment1-data/model-br.en'
+    generatedModel = '../assignment1-data/alphabetical_trigram.en'
+    print('\nGenerated output from our generated model:\n')
+    print(Trigram().generate_from_LM(generatedModel))
+    print('\nGenerated output from example model-br.en:\n')
+    print(Trigram().generate_from_LM(exampleModel))
 
 
 if __name__ == "__main__":
