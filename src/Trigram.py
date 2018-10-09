@@ -63,27 +63,32 @@ class Trigram():
     def printTrigram(self):
         print("Generating trigram model from ",
               self.infile, ", sorted alphabetically:")
-        with open('alphabetical_trigram.' + self.language, 'w') as f:
+        with open('../assignment1-data/alphabetical_trigram.' + self.language, 'w') as f:
             for trigram in sorted(self.tri_counts.keys()):
-                print(trigram, ": ",
+                print(trigram, " ",
                       '{:.2e}'.format(self.tri_counts[trigram] / self.bi_counts[trigram[:-1]]), file=f)
         print("Generating trigram model from ",
               self.infile, ", sorted numerically:")
-        with open('numerical_trigram.' + self.language, 'w') as f:
+        with open('../assignment1-data/numerical_trigram.' + self.language, 'w') as f:
             for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
-                print(tri_count[0], ": ", str(
+                print(tri_count[0], " ", str(
                     '{:.2e}'.format(tri_count[1] / self.bi_counts[tri_count[0][:-1]])), file=f)
+
+    def parseModel(self, modelFile):
+        model = {}
+        file = open(modelFile, 'r')
+        for line in file:
+            splitLine = line.split()
+            model[splitLine[0]] = splitLine[1]
+        return model
 
     # Task 4
     # Generates output string based on language model
     def generate_from_LM(self, model):
+        model = self.parseModel(model)
         phrase = ''
         for i in range(100):
-            rand = random()
-            for tri in sorted(self.tri_counts.items(), key=lambda x: x[1]):
-                if(rand < (tri[1] / self.bi_counts[tri[0][:-1]])):
-                    phrase += tri[0]
-                    break
+            print("Algorithm goes here")
         return phrase
 
 
@@ -100,12 +105,12 @@ def main():
     # Trigram().extractNgram(Trigram().tri_counts, 3)
     Trigram().printTrigram()
 
-    exampleModel = '../assignment1-data/model-br.en'
-    generatedModel = '../assignment1-data/alphabetical_trigram.en'
     print('\nGenerated output from our generated model:\n')
-    print(Trigram().generate_from_LM(generatedModel))
+    print(Trigram().generate_from_LM(
+        '../assignment1-data/alphabetical_trigram.en'))
+
     print('\nGenerated output from example model-br.en:\n')
-    print(Trigram().generate_from_LM(exampleModel))
+    print(Trigram().generate_from_LM('../assignment1-data/model-br.en'))
 
 
 if __name__ == "__main__":
