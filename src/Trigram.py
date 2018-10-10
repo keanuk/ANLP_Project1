@@ -1,6 +1,6 @@
 import re
 import sys
-from random import random
+import random
 from math import log
 from collections import defaultdict
 
@@ -67,9 +67,9 @@ class Trigram():
     # Generates output string based on language model
     def generate_from_LM(self, model):
         model = self.parseModel(model)
-        phrase = 'th'
+        phrase = random.choice(list(model.keys())[:-2])
         for i in range(298):
-            rand = random()
+            rand = random.random()
             total = 0
             for tri, prob in model.items():
                 if(phrase[-2:] in tri):
