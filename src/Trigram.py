@@ -25,36 +25,14 @@ class Trigram():
         line = '#' + line[:-2] + '#'
         return line
 
-    # This bit of code gives an example of how you might extract trigram counts
-    # from a file, line by line. If you plan to use or modify this code,
-    # please ensure you understand what it is actually doing, especially at the
-    # beginning and end of each line. Depending on how you write the rest of
-    # your program, you may need to modify this code.
-    def extractTrigram(self):
-        print("Extracting trigrams")
-        with open(self.infile) as f:
-            for line in f:
-                line = self.preprocess_line(line)
-                for j in range(len(line)-(3)):
-                    trigram = line[j:j+3]
-                    self.tri_counts[trigram] += 1
-
-    def extractBigram(self):
-        print("Extracting bigrams")
-        with open(self.infile) as f:
-            for line in f:
-                line = self.preprocess_line(line)
-                for j in range(len(line)-(2)):
-                    bigram = line[j:j+2]
-                    self.bi_counts[bigram] += 1
-
+    # Extracts Ngrams from given training file
     def extractNgram(self, ncounts, n):
         print("Extracting Ngrams where N = ", n)
         with open(self.infile) as f:
             for line in f:
                 line = self.preprocess_line(line)
                 for j in range(len(line)-(n)):
-                    ncounts[line[j:j+2]] += 1
+                    ncounts[line[j:j+n]] += 1
 
     # Some example code that prints out the counts. For small input files
     # the counts are easy to look at but for larger files you can redirect
@@ -109,10 +87,8 @@ def main():
         print("Usage: ", sys.argv[0], "<training_file>")
         sys.exit(1)
 
-    Trigram().extractBigram()
-    Trigram().extractTrigram()
-    # Trigram().extractNgram(Trigram().bi_counts, 2)
-    # Trigram().extractNgram(Trigram().tri_counts, 3)
+    Trigram().extractNgram(Trigram().bi_counts, 2)
+    Trigram().extractNgram(Trigram().tri_counts, 3)
     Trigram().printTrigram()
 
     print('\nGenerated output from our generated model:\n')
