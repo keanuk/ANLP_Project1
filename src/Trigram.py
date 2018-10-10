@@ -79,16 +79,26 @@ class Trigram():
         file = open(modelFile, 'r')
         for line in file:
             splitLine = line.split()
-            model[splitLine[0]] = splitLine[1]
+            if(len(splitLine) == 2):
+                model[splitLine[0]] = splitLine[1]
+            else:
+                model['   '] = splitLine[0]
         return model
 
     # Task 4
     # Generates output string based on language model
     def generate_from_LM(self, model):
         model = self.parseModel(model)
-        phrase = ''
-        for i in range(100):
-            print("Algorithm goes here")
+        phrase = 'th'
+        for i in range(298):
+            rand = random()
+            total = 0
+            for tri, prob in model.items():
+                if(phrase[-2:] in tri):
+                    total += float(prob)
+                    if(rand < total):
+                        phrase += tri[-1:]
+                        break
         return phrase
 
 
