@@ -52,19 +52,25 @@ class Trigram():
                 print(tri_count[0], " ", str(
                     '{:.2e}'.format(tri_count[1] / self.bi_counts[tri_count[0][:-1]])), file=f)
 
+    def splitAtFirstDigit(self, line):
+        for char in line:
+            if char.isdigit():
+                if int(char) > 0:
+                    result = line.split(char, 1)
+                    result[0] = re.sub(r'[\n\t]', '', result[0].rstrip())
+                    result[1] = re.sub(r'[\n\t]', '', result[1])
+                    if(result[0] == ''):
+                        result[0] = "   "
+                    return [result[0], char + result[1]]
+
     def parseModel(self, modelFile):
         model = {}
         file = open(modelFile, 'r')
         for line in file:
-            splitLine = re.split(r'(\d+)', line)
-            splitLine[0].lstrip(' ')
-            splitLine[0].rstrip(' ')
-            print("New dictionary entry with key: ",
-                  splitLine[0], " and value: ", splitLine[1])
-            if(len(splitLine) == 2):
-                model[splitLine[0]] = splitLine[1]
-            else:
-                model['   '] = splitLine[0]
+            splitLine = self.splitAtFirstDigit(line)
+            # print("New dictionary entry with key: ", splitLine[0], " and value: ", splitLine[1])
+            model[splitLine[0]] = splitLine[1]
+        # print(list(model.items())[:5])
         return model
 
     # Task 4
@@ -75,15 +81,14 @@ class Trigram():
         for i in range(298):
             rand = random.random()
             total = 0
-            print("Random: ", rand)
+            # print("Random: ", rand)
             for tri, prob in model.items():
                 if(phrase[:2] in tri):
-                    print("New probability: ", prob,
-                          "     from trigram: ", tri)
+                    # print("New probability: ", prob, "     from trigram: ", tri)
                     total += float(prob)
-                    print("Total: ", total)
+                    # print("Total: ", total)
                     if(rand < total):
-                        print("\nUSED CHARACTER: ", tri[-1:], "\n")
+                        # print("\nUSED CHARACTER: ", tri[-1:], "\n")
                         phrase += tri[-1:]
                         break
         return phrase
