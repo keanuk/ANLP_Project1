@@ -74,13 +74,13 @@ class Trigram():
         for i in range(298):
             rand = random.random()
             total = 0
-            print("Random: ", rand)
+            # print("Random: ", rand)
             for tri, prob in model.items():
                 if(phrase[-2:] == tri[:2]):
                     total += float(prob)
-                    print("Total: ", total)
+                    # print("Total: ", total)
                     if(rand < total):
-                        print("\nUSED CHARACTER: ", tri[-1:], "\n")
+                        # print("\nUSED CHARACTER: ", tri[-1:], "\n")
                         phrase += tri[-1:]
                         break
         return phrase
