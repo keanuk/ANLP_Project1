@@ -57,10 +57,8 @@ class Trigram():
             if char.isdigit():
                 if int(char) > 0:
                     result = line.split(char, 1)
-                    result[0] = re.sub(r'[\n\t]', '', result[0].rstrip())
+                    result[0] = re.sub(r'[\n\t]', '', result[0][:3])
                     result[1] = re.sub(r'[\n\t]', '', result[1])
-                    if(result[0] == ''):
-                        result[0] = "   "
                     return [result[0], char + result[1]]
 
     def parseModel(self, modelFile):
@@ -70,7 +68,7 @@ class Trigram():
             splitLine = self.splitAtFirstDigit(line)
             # print("New dictionary entry with key: ", splitLine[0], " and value: ", splitLine[1])
             model[splitLine[0]] = splitLine[1]
-        # print(list(model.items())[:5])
+        print(list(model.items()))
         return model
 
     # Task 4
