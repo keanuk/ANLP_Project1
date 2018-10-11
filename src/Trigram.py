@@ -56,7 +56,11 @@ class Trigram():
         model = {}
         file = open(modelFile, 'r')
         for line in file:
-            splitLine = line.split()
+            splitLine = re.split(r'(\d+)', line)
+            splitLine[0].lstrip(' ')
+            splitLine[0].rstrip(' ')
+            print("New dictionary entry with key: ",
+                  splitLine[0], " and value: ", splitLine[1])
             if(len(splitLine) == 2):
                 model[splitLine[0]] = splitLine[1]
             else:
@@ -67,14 +71,19 @@ class Trigram():
     # Generates output string based on language model
     def generate_from_LM(self, model):
         model = self.parseModel(model)
-        phrase = random.choice(list(model.keys())[:-2])
+        phrase = random.choice(list(model.keys())[:2])
         for i in range(298):
             rand = random.random()
             total = 0
+            print("Random: ", rand)
             for tri, prob in model.items():
-                if(phrase[-2:] in tri):
+                if(phrase[:2] in tri):
+                    print("New probability: ", prob,
+                          "     from trigram: ", tri)
                     total += float(prob)
+                    print("Total: ", total)
                     if(rand < total):
+                        print("\nUSED CHARACTER: ", tri[-1:], "\n")
                         phrase += tri[-1:]
                         break
         return phrase
