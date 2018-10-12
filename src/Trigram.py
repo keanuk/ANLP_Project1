@@ -1,6 +1,7 @@
 import re
 import sys
 import random
+import numpy as np
 from math import log
 from itertools import product
 from collections import defaultdict
@@ -23,8 +24,8 @@ class Trigram():
     # Converts all digits to 0
     # Sets strings to be all lowercase
     def preprocess_line(self, line):
-        line = re.sub(r'[1-9]', '0', line)
-        line = re.sub(r'[^a-z0.\s]', '', line.lower())
+        line = re.sub('[1-9]', '0', line)
+        line = re.sub('[^a-z0.\s]', '', line.lower())
         line = '#' + line[:-1] + '#'
         return line
 
@@ -42,7 +43,7 @@ class Trigram():
     def printTrigram(self):
         with open('../assignment1-data/alphabetical_trigram.' + self.language, 'w') as f:
             for trigram in sorted(self.tri_counts.keys()):
-                print(trigram, " ", '{:.2e}'.format((self.tri_counts[trigram] + 1) / (self.bi_counts[trigram[:-1]] + len(self.bi_counts))), file=f)
+                print(trigram, " ", '{:.2e}'.format((self.tri_counts[trigram] + 1) / (self.bi_counts[trigram[:-1]] + len(self.possible_characters))), file=f)
         # print("Generating trigram model from ", self.infile, ", sorted numerically:")
         # with open('../assignment1-data/numerical_trigram.' + self.language, 'w') as f:
         #     for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
@@ -54,8 +55,8 @@ class Trigram():
             if char.isdigit():
                 if int(char) > 0:
                     result = line.split(char, 1)
-                    result[0] = re.sub(r'[\n\t]', '', result[0][:3])
-                    result[1] = re.sub(r'[\n\t]', '', result[1])
+                    result[0] = re.sub('[\n\t]', '', result[0][:3])
+                    result[1] = re.sub('[\n\t]', '', result[1])
                     return [result[0], char + result[1]]
 
     def parseModel(self, modelFile):
@@ -63,42 +64,22 @@ class Trigram():
         file = open(modelFile, 'r')
         for line in file:
             splitLine = self.splitAtFirstDigit(line)
-            model[splitLine[0]] = splitLine[1]
+            model[splitLine[0]] = float(splitLine[1])
         return model
-
-    def startNewLine(self, model):
-        rand = random.random()
-        total = 0
-        for tri, prob in model.items():
-            if(tri[:1] == '#'):
-                total += float(prob)
-                if(rand < total):
-                    return tri[:2]
-        return '#notfound'
 
     # Task 4
     # Generates output string based on language model
     def generate_from_LM(self, model):
         model = self.parseModel(model)
-        phrase = self.startNewLine(model)
+        phrase = '##'
         for i in range(298):
-            rand = random.random()
-            total = 0
-            # print("Random: ", rand)
-            # print("Looking for: ", re.sub(r'[\s]', '_', phrase[-2:]))
-            for tri, prob in model.items():
-                if(phrase[-2:] == tri[:2]):
-                    total += float(prob)
-                    # print("Checked: ", tri)
-                    if(rand < total):
-                        # print("\nUSED CHARACTER: ", tri[-1:], "\n")
-                        phrase += tri[-1:]
-                        if(phrase[-1:] == '#'):
-                            phrase += self.startNewLine(model)
-                            i += 1
-                            break
-                        break
-        return re.sub(r'[#]', '\n', phrase)
+            filteredModel = {key : value for (key, value) in model.items() if phrase[-2:] == key[:2]}
+            phrase += str(np.random.choice(list(filteredModel.keys()), 1, p=[float(i)/sum(list(filteredModel.values())) for i in list(filteredModel.values())]))[4:5]
+            if(phrase[-1:] == '#'):
+                phrase += '#'
+                i += 1
+        phrase = phrase.replace('##', '\n')
+        return re.sub(r'[#]', '', phrase)
 
 
 def main():
@@ -112,12 +93,11 @@ def main():
     Trigram().extractNgram(Trigram().tri_counts, 3)
     Trigram().printTrigram()
 
-    print('\nGenerated output from our generated model:\n')
-    print(Trigram().generate_from_LM('../assignment1-data/alphabetical_trigram.en'))
-
-    print('\nGenerated output from example model-br.en:\n')
+    print('\n**********Generated output from example model-br.en:')
     print(Trigram().generate_from_LM('../assignment1-data/model-br.en'))
 
+    print('\n**********Generated output from our generated model:')
+    print(Trigram().generate_from_LM('../assignment1-data/alphabetical_trigram.en'))
 
 if __name__ == "__main__":
     main()
