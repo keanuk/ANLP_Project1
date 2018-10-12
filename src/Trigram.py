@@ -2,7 +2,7 @@ import re
 import sys
 import random
 import numpy as np
-from math import log
+from math import log2
 from itertools import product
 from collections import defaultdict
 
@@ -26,7 +26,7 @@ class Trigram():
     def preprocess_line(self, line):
         line = re.sub('[1-9]', '0', line)
         line = re.sub('[^a-z0.\s]', '', line.lower())
-        line = '#' + line[:-1] + '#'
+        line = '##' + line[:-1] + '#'
         return line
 
     def generateAllNgrams(self, n):
@@ -81,6 +81,25 @@ class Trigram():
         phrase = phrase.replace('##', '\n')
         return re.sub(r'[#]', '', phrase)
 
+    # Task 5
+    # Calculate perplexity
+    def getPerplexity(self, model, testDoc):
+        testString = ''
+        model = self.parseModel(model)
+        triSum = 0
+        testString = ''
+        with open(testDoc) as f:
+            for line in f:
+                pline = self.preprocess_line(line)
+                testString += pline
+                triCount = len(pline) - 3
+                for i in range(triCount):
+                    triSum += log2(model[pline[:3]])
+                    pline = pline[1:]
+        perplexity = -1 / len(testString) * triSum
+        print("Perplexity is: ", perplexity)
+        print("Sum of all trigram probabilities: ", triSum)
+
 
 def main():
 
@@ -98,6 +117,19 @@ def main():
 
     print('\n**********Generated output from our generated model:')
     print(Trigram().generate_from_LM('../assignment1-data/alphabetical_trigram.en'))
+
+    print("\n**********Calculating perplexity of the document with given model:")
+    print(Trigram().getPerplexity('../assignment1-data/model-br.en', '../assignment1-data/test'))
+
+    print("\n**********Calculating perplexity of the document with english model:")
+    print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.en', '../assignment1-data/test'))
+
+    print("\n**********Calculating perplexity of the document with german model:")
+    print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.de', '../assignment1-data/test'))
+
+    print("\n**********Calculating perplexity of the document with spanish model:")
+    print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.es', '../assignment1-data/test'))
+
 
 if __name__ == "__main__":
     main()
