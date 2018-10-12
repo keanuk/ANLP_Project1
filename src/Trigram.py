@@ -66,24 +66,39 @@ class Trigram():
             model[splitLine[0]] = splitLine[1]
         return model
 
+    def startNewLine(self, model):
+        rand = random.random()
+        total = 0
+        for tri, prob in model.items():
+            if(tri[:1] == '#'):
+                total += float(prob)
+                if(rand < total):
+                    return tri[:2]
+        return '#notfound'
+
     # Task 4
     # Generates output string based on language model
     def generate_from_LM(self, model):
         model = self.parseModel(model)
-        phrase = random.choice(list(model.keys())[:2])
+        phrase = self.startNewLine(model)
         for i in range(298):
             rand = random.random()
             total = 0
             # print("Random: ", rand)
+            # print("Looking for: ", re.sub(r'[\s]', '_', phrase[-2:]))
             for tri, prob in model.items():
                 if(phrase[-2:] == tri[:2]):
                     total += float(prob)
-                    # print("Total: ", total)
+                    # print("Checked: ", tri)
                     if(rand < total):
                         # print("\nUSED CHARACTER: ", tri[-1:], "\n")
                         phrase += tri[-1:]
+                        if(phrase[-1:] == '#'):
+                            phrase += self.startNewLine(model)
+                            i += 1
+                            break
                         break
-        return phrase
+        return re.sub(r'[#]', '\n', phrase)
 
 
 def main():
