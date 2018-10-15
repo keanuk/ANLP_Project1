@@ -19,6 +19,21 @@ class Trigram():
     tri_counts = dict.fromkeys([''.join(i) for i in product(possible_characters, repeat=3)], 0)
     bi_counts = dict.fromkeys([''.join(i) for i in product(possible_characters, repeat=2)], 0)
 
+    def cleanTri(self):
+        print("Cleaning trigram")
+        for key in list(self.tri_counts.keys()):
+            if key[-2:] == "##":
+                del self.tri_counts[key]
+                print("Found key: ", key)
+            if key[0] != '#' and key[1] == '#' and key[2] != '#':
+                del self.tri_counts[key]
+                print("Found key: ", key)
+            if key[0] == '#' and key[1] != '#' and key[2] == '#':
+                del self.tri_counts[key]
+                print("Found key: ", key)
+
+
+
     # Task 1
     # Removes special characters
     # Converts all digits to 0
@@ -96,10 +111,9 @@ class Trigram():
                 for i in range(triCount):
                     triSum += log2(model[pline[:3]])
                     pline = pline[1:]
-        perplexity = -1 / len(testString) * triSum
-        print("Perplexity is: ", perplexity)
-        print("Sum of all trigram probabilities: ", triSum)
-
+        entropy = -1 / len(testString) * triSum
+        perplexity = 2 ** entropy
+        return perplexity
 
 def main():
 
@@ -107,6 +121,8 @@ def main():
     if len(sys.argv) != 2:
         print("Usage: ", sys.argv[0], "<training_file>")
         sys.exit(1)
+
+    Trigram().cleanTri()
 
     Trigram().extractNgram(Trigram().bi_counts, 2)
     Trigram().extractNgram(Trigram().tri_counts, 3)
