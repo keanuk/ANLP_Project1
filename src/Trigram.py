@@ -20,17 +20,13 @@ class Trigram():
     bi_counts = dict.fromkeys([''.join(i) for i in product(possible_characters, repeat=2)], 0)
 
     def cleanTri(self):
-        print("Cleaning trigram")
         for key in list(self.tri_counts.keys()):
             if key[-2:] == "##":
                 del self.tri_counts[key]
-                print("Found key: ", key)
             if key[0] != '#' and key[1] == '#' and key[2] != '#':
                 del self.tri_counts[key]
-                print("Found key: ", key)
-            if key[0] == '#' and key[1] != '#' and key[2] == '#':
-                del self.tri_counts[key]
-                print("Found key: ", key)
+            # if key[0] == '#' and key[1] != '#' and key[2] == '#':
+            #     del self.tri_counts[key]
 
 
 
@@ -52,13 +48,13 @@ class Trigram():
         with open(self.infile) as f:
             for line in f:
                 line = self.preprocess_line(line)
-                for j in range(len(line)-(n)):
+                for j in range(len(line)-(n - 1)):
                     ncounts[line[j:j+n]] += 1
 
     def printTrigram(self):
         with open('../assignment1-data/alphabetical_trigram.' + self.language, 'w') as f:
             for trigram in sorted(self.tri_counts.keys()):
-                print(trigram, " ", '{:.2e}'.format((self.tri_counts[trigram] + 1) / (self.bi_counts[trigram[:-1]] + len(self.possible_characters))), file=f)
+                print(trigram, " ", '{:.2e}'.format(((self.tri_counts[trigram]) + 1) / (self.bi_counts[trigram[:-1]] + len(self.possible_characters))), file=f)
         # print("Generating trigram model from ", self.infile, ", sorted numerically:")
         # with open('../assignment1-data/numerical_trigram.' + self.language, 'w') as f:
         #     for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
@@ -99,7 +95,6 @@ class Trigram():
     # Task 5
     # Calculate perplexity
     def getPerplexity(self, model, testDoc):
-        testString = ''
         model = self.parseModel(model)
         triSum = 0
         testString = ''
