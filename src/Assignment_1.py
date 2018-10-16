@@ -33,8 +33,8 @@ class Trigram():
     # Converts all digits to 0
     # Sets strings to be all lowercase
     def preprocess_line(self, line):
-        line = re.sub('[1-9]', '0', line)
-        line = re.sub('[^a-z0.\s]', '', line.lower())
+        line = re.sub(r'[1-9]', '0', line)
+        line = re.sub(r'[^a-z0.\s]', '', line.lower())
         line = '##' + line[:-1] + '#'
         return line
 
@@ -69,8 +69,8 @@ class Trigram():
             if char.isdigit():
                 if int(char) > 0:
                     result = line.split(char, 1)
-                    result[0] = re.sub('[\n\t]', '', result[0][:3])
-                    result[1] = re.sub('[\n\t]', '', result[1])
+                    result[0] = re.sub(r'[\n\t]', '', result[0][:3])
+                    result[1] = re.sub(r'[\n\t]', '', result[1])
                     return [result[0], char + result[1]]
 
     # Parses models from text document and stores them in dictionary to be used for string generation
@@ -88,7 +88,8 @@ class Trigram():
         phrase = '##'
         for i in range(298):
             filteredModel = {key : value for (key, value) in model.items() if phrase[-2:] == key[:2]}
-            phrase += str(np.random.choice(list(filteredModel.keys()), 1, p=[float(i)/sum(list(filteredModel.values())) for i in list(filteredModel.values())]))[4:5]
+            # Probabilities are normalized to account for rounding in the models
+            phrase += str(np.random.choice(list(filteredModel.keys()), 1, p=[float(j)/sum(list(filteredModel.values())) for j in list(filteredModel.values())]))[4:5]
             if(phrase[-1:] == '#'):
                 phrase += '#'
                 i += 1
@@ -162,6 +163,8 @@ class Trigram():
         if isGerman == False and isSpanish == False:
             print("The document is probably English.")
 
+
+# All functions are called here
 def main():
 
     # Check if number of arguments are correct
@@ -169,31 +172,35 @@ def main():
         print("Usage: ", sys.argv[0], "<training_file>")
         sys.exit(1)
 
+
     # Task 1 and Task 3
     Trigram().cleanTri()
     Trigram().extractNgram(Trigram().bi_counts, 2)
     Trigram().extractNgram(Trigram().tri_counts, 3)
     Trigram().printTrigram()
 
-    # Task 4
-    print('\n**********Generated output from example model-br.en:')
-    print(Trigram().generate_from_LM('../assignment1-data/model-br.en'))
 
+    # Task 4
     print('\n**********Generated output from our generated model:')
     print(Trigram().generate_from_LM('../assignment1-data/alphabetical_trigram.en'))
 
-    # Task 5
-    print("\n**********Calculating perplexity of the document with given model:")
-    print(Trigram().getPerplexity('../assignment1-data/model-br.en', '../assignment1-data/test'))
+    print('\n**********Generated output from model-br.en:')
+    print(Trigram().generate_from_LM('../assignment1-data/model-br.en'))
 
-    print("\n**********Calculating perplexity of the document with english model:")
+
+    # Task 5
+    print("\n**********Calculating perplexity of the test document with english model:")
     print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.en', '../assignment1-data/test'))
 
-    print("\n**********Calculating perplexity of the document with german model:")
+    print("\n**********Calculating perplexity of the test document with german model:")
     print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.de', '../assignment1-data/test'))
 
-    print("\n**********Calculating perplexity of the document with spanish model:")
+    print("\n**********Calculating perplexity of the test document with spanish model:")
     print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.es', '../assignment1-data/test'))
+
+    print("\n**********Calculating perplexity of the test document with model-br.en:")
+    print(Trigram().getPerplexity('../assignment1-data/model-br.en', '../assignment1-data/test'))
+
 
     # Task 6
     print("\n**********Language specific rules:")
