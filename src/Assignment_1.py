@@ -1,11 +1,8 @@
 import re
 import sys
-import random
 import numpy as np
 from math import log2
 from itertools import product
-from collections import defaultdict
-from pylint.test.functional.used_before_assignment_issue1081 import FalsePositive
 
 class Trigram():
 
