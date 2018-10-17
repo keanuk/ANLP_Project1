@@ -52,10 +52,10 @@ class Trigram():
 
     # Calculates trigram probabilities and smoothes them using add-1 smoothing
     def printTrigram(self):
-        with open('../assignment1-data/alphabetical_trigram.' + self.language, 'w') as f:
+        with open('alphabetical_trigram.' + self.language, 'w') as f:
             for trigram in sorted(self.tri_counts.keys()):
                 print(trigram, " ", '{:.2e}'.format(((self.tri_counts[trigram]) + 1) / (self.bi_counts[trigram[:-1]] + len(self.possible_characters))), file=f)
-        with open('../assignment1-data/numerical_trigram.' + self.language, 'w') as f:
+        with open('numerical_trigram.' + self.language, 'w') as f:
             for tri_count in sorted(self.tri_counts.items(), key=lambda x: x[1], reverse=True):
                 print(tri_count[0], " ", str('{:.2e}'.format((tri_count[1] + 1) / (self.bi_counts[tri_count[0][:-1]] + len(self.possible_characters)))), file=f)
 
@@ -182,29 +182,29 @@ def main():
 
     # Task 4
     print('\n**********Generated output from our generated model:')
-    print(Trigram().generate_from_LM('../assignment1-data/alphabetical_trigram.en'))
+    print(Trigram().generate_from_LM('alphabetical_trigram.en'))
 
     print('\n**********Generated output from model-br.en:')
-    print(Trigram().generate_from_LM('../assignment1-data/model-br.en'))
+    print(Trigram().generate_from_LM('model-br.en'))
 
 
     # Task 5
     print("\n**********Calculating perplexity of the test document with english model:")
-    print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.en', '../assignment1-data/test'))
+    print(Trigram().getPerplexity('alphabetical_trigram.en', 'test'))
 
     print("\n**********Calculating perplexity of the test document with german model:")
-    print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.de', '../assignment1-data/test'))
+    print(Trigram().getPerplexity('alphabetical_trigram.de', 'test'))
 
     print("\n**********Calculating perplexity of the test document with spanish model:")
-    print(Trigram().getPerplexity('../assignment1-data/alphabetical_trigram.es', '../assignment1-data/test'))
+    print(Trigram().getPerplexity('alphabetical_trigram.es', 'test'))
 
     print("\n**********Calculating perplexity of the test document with model-br.en:")
-    print(Trigram().getPerplexity('../assignment1-data/model-br.en', '../assignment1-data/test'))
+    print(Trigram().getPerplexity('model-br.en', 'test'))
 
 
     # Task 6
     print("\n**********Language specific rules:")
-    Trigram().checkLangRules('../assignment1-data/test')
+    Trigram().checkLangRules('test')
 
 
 if __name__ == "__main__":
